@@ -23,8 +23,8 @@ Legend: ✅ shipped · 🟡 open for contribution
 | Layer | Marker | Location |
 |---|---|---|
 | Skill definitions | `lang:` in frontmatter | `skills/<poe-*>/SKILL.md` (all 32) |
-| Power units (能量单元) | `language` field per JSON entry | `知识库/能量库/powers_poe.jsonl` (all 50) |
-| Knowledge packs | `> 语言:` header line | `知识库/Skill知识包/*.md` |
+| Power units (能量单元) | `language` field per JSON entry | `knowledge/powers/powers_poe.jsonl` (all 50) |
+| Knowledge packs | `> 语言:` header line | `knowledge/skill-packs/*.md` |
 | README | file suffix | `README.md` (zh-CN) / `README.en.md` (en) |
 
 ## Adding a language — quick path

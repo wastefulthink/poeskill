@@ -4,7 +4,7 @@ poeskill is designed to be **language-neutral at the data layer** and **translat
 
 ## Design principles
 
-1. **Metadata is tagged, not hardcoded.** Every `SKILL.md` frontmatter has a `lang:` field. Every power unit (能量单元) in `能量库/powers_poe.jsonl` has a `language` field.
+1. **Metadata is tagged, not hardcoded.** Every `SKILL.md` frontmatter has a `lang:` field. Every power unit (能量单元) in `powers/powers_poe.jsonl` has a `language` field.
 2. **Translation never overwrites the source.** A translated file is a *new file* with a language suffix — e.g. `SKILL.en.md`, `SKILL.ja.md` — and the original `SKILL.md` stays as the `zh-CN` master.
 3. **Slash commands stay universal.** Skill names (`/poe-diagnosis`, `/poe-verify`, ...) are identifiers, not translated text. Only descriptions, instructions, and knowledge content get translated.
 4. **The knowledge base is additive.** To translate a power unit, copy its JSON line, change `language` and `knowledge` (and optionally `original`/`url` to a localized edition), and keep `id`, `topics`, `skills`, `type`, `confidence`, `audience` unchanged. Then regenerate or extend the knowledge packs.

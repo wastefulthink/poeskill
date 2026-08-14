@@ -51,7 +51,7 @@ description: 把课题拆成连续学习文章，并根据用户反馈调整后�
 - `CLAUDE.md`
 - `package.json`
 - `pyproject.toml`
-- `知识库/`
+- `knowledge/`
 - `skills/`
 
 ### 泛目录和系统目录

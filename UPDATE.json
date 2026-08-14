@@ -1,16 +1,16 @@
 {
-  "version": "3.5.1",
-  "notice": "poeskill 3.5.1：新增赞赏入口——GitHub 仓库页 Sponsor 按钮与 9 语言 README 中的「请我喝杯咖啡」区块，指向 buymeacoffee.com/xueyegog。项目依然免费开源，赞赏完全自愿。｜ Sponsor link added: GitHub Sponsor button + Buy Me a Coffee section in all 9 README languages. Still free and open source — donations are entirely voluntary.",
+  "version": "3.6.0",
+  "notice": "poeskill 3.6.0：仓库内全部中文路径改为英文——knowledge/、knowledge/powers/、knowledge/skill-packs/、philosophy-glossary.md 等 27 处，全球用户 clone 不再有编码问题；文件内容保持中文优先多语言策略不变。｜ All Chinese paths in the repo renamed to English (knowledge/, powers/, skill-packs/, glossary...) — 27 renames, git history preserved. Content stays multilingual.",
   "notice_i18n": {
-    "zh-CN": "poeskill 3.5.1：新增赞赏入口（GitHub Sponsor 按钮 + 9 语言 README 咖啡区块），赞赏完全自愿。",
-    "en": "poeskill 3.5.1: sponsor link added (GitHub Sponsor button + coffee section in all 9 READMEs), entirely voluntary.",
-    "ko": "poeskill 3.5.1: 후원 링크 추가(GitHub Sponsor 버튼 + 9개 언어 README 커피 섹션), 전적으로 자발적입니다.",
-    "ru": "poeskill 3.5.1: добавлена ссылка для поддержки (кнопка Sponsor + раздел с кофе во всех 9 README), полностью добровольно.",
-    "es": "poeskill 3.5.1: enlace de patrocinio añadido (botón Sponsor + sección de café en los 9 README), totalmente voluntario.",
-    "ja": "poeskill 3.5.1：スポンサーリンクを追加（GitHubのSponsorボタン＋9言語のREADMEにコーヒーセクション）、あくまで任意です。",
-    "fr": "poeskill 3.5.1 : lien de don ajouté (bouton Sponsor + section café dans les 9 README), entièrement volontaire.",
-    "de": "poeskill 3.5.1: Sponsor-Link hinzugefügt (Sponsor-Button + Kaffee-Bereich in allen 9 READMEs), vollkommen freiwillig.",
-    "pt": "poeskill 3.5.1: link de apoio adicionado (botão Sponsor + seção de café nos 9 READMEs), totalmente voluntário."
+    "zh-CN": "poeskill 3.6.0：仓库内中文路径全部改为英文（knowledge/powers/skill-packs 等），内容策略不变。",
+    "en": "poeskill 3.6.0: all Chinese paths in the repo renamed to English (knowledge/, powers/, skill-packs/); content unchanged.",
+    "ko": "poeskill 3.6.0: 저장소 내 중국어 경로를 모두 영어로 변경(knowledge/, powers/, skill-packs/ 등). 콘텐츠는 그대로입니다.",
+    "ru": "poeskill 3.6.0: все китайские пути в репозитории переименованы на английский (knowledge/, powers/, skill-packs/). Содержимое без изменений.",
+    "es": "poeskill 3.6.0: todas las rutas en chino del repo renombradas a inglés (knowledge/, powers/, skill-packs/). El contenido no cambia.",
+    "ja": "poeskill 3.6.0：リポジトリ内の中国語パスをすべて英語に変更（knowledge/、powers/、skill-packs/ など）。内容は変わらず。",
+    "fr": "poeskill 3.6.0 : tous les chemins chinois du dépôt renommés en anglais (knowledge/, powers/, skill-packs/). Contenu inchangé.",
+    "de": "poeskill 3.6.0: Alle chinesischen Pfade im Repo auf Englisch umbenannt (knowledge/, powers/, skill-packs/). Inhalt unverändert.",
+    "pt": "poeskill 3.6.0: todos os caminhos em chinês do repo renomeados para inglês (knowledge/, powers/, skill-packs/). Conteúdo inalterado."
   },
-  "details_url": "https://github.com/wastefulthink/poeskill/releases/tag/v3.5.1"
+  "details_url": "https://github.com/wastefulthink/poeskill/releases/tag/v3.6.0"
 }

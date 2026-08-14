@@ -11,7 +11,7 @@ from powers_phil_p5 import POWERS_P5
 from powers_phil_p6 import POWERS_P6
 
 POWERS = POWERS_P1 + POWERS_P2 + POWERS_P3 + POWERS_P4 + POWERS_P5 + POWERS_P6
-OUT = r"C:/Users/Administrator/WorkBuddy/2026-08-14-14-39-44/poeskill-repo/知识库"
+OUT = r"C:/Users/Administrator/WorkBuddy/2026-08-14-14-39-44/poeskill-repo/knowledge"
 
 # ---------- 校验 ----------
 ids = [a["id"] for a in POWERS]
@@ -25,8 +25,8 @@ for a in POWERS:
 print(f"能量总数: {len(POWERS)}，校验通过")
 
 # ---------- 输出 jsonl（注入语言字段，支持 i18n）----------
-os.makedirs(f"{OUT}/能量库", exist_ok=True)
-with open(f"{OUT}/能量库/powers_poe.jsonl", "w", encoding="utf-8") as f:
+os.makedirs(f"{OUT}/powers", exist_ok=True)
+with open(f"{OUT}/powers/powers_poe.jsonl", "w", encoding="utf-8") as f:
     for a in POWERS:
         p = dict(a)
         p["language"] = "zh-CN"   # 源语言标记；翻译版请复制条目并改 language + knowledge
@@ -48,7 +48,7 @@ PACK_META = {
     "poe-spread": ("传播心理", "阿德勒/叔本华/米塞斯"),
     "poe-slowisfast": ("长期主义与节奏", "老子/马可·奥勒留"),
 }
-os.makedirs(f"{OUT}/Skill知识包", exist_ok=True)
+os.makedirs(f"{OUT}/skill-packs", exist_ok=True)
 for skill, (title, src) in PACK_META.items():
     sel = [a for a in POWERS if skill in a["skills"]]
     lines = []
@@ -66,7 +66,7 @@ for skill, (title, src) in PACK_META.items():
         lines.append(f"- **出处**：{a['original']}")
         lines.append(f"- **类型**：{a['type']} ｜ **置信度**：{a['confidence']}")
         lines.append("")
-    with open(f"{OUT}/Skill知识包/{skill}_哲学知识包.md", "w", encoding="utf-8") as f:
+    with open(f"{OUT}/skill-packs/{skill}_pack.md", "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
     print(f"知识包 {skill}: {len(sel)} 条")
 print("知识包全部生成")
@@ -164,7 +164,7 @@ for name, person, core, scene in CONCEPTS:
     lines.append(f"- 核心：{core}")
     lines.append(f"- 商业场景：{scene}")
     lines.append("")
-with open(f"{OUT}/哲学概念词典.md", "w", encoding="utf-8") as f:
+with open(f"{OUT}/philosophy-glossary.md", "w", encoding="utf-8") as f:
     f.write("\n".join(lines))
 print(f"哲学概念词典已生成（{len(CONCEPTS)} 词）")
 print("全部完成")

@@ -107,13 +107,13 @@ Neu hier? Lies den [3-Minuten-Quickstart](QUICKSTART.en.md) (ganz ohne Fachjargo
 
 ## Wissensbasis: 305 Einheiten · 25 Denker
 
-`知识库/` enthält keine vagen „KI-Zusammenfassungen". Sie umfasst 305 Power-Einheiten, destilliert aus den Originalwerken von 25 Denkern — Hume, Kant, Popper, Wittgenstein, Deutsch, Russell, Smith, Mises, Hayek, Laozi, Adler, Schopenhauer, Marcus Aurelius, Nietzsche, Camus, Aristoteles, Mill, Weber, Keynes, Friedman, Schumpeter, Soros, Grove, Darwin, Feynman, Einstein, Newton, Shannon, Turing, Bacon, Descartes, Munger, Kahneman, Thaler, Taleb, Drucker, Porter, Simon, Coase, Pinker, Dennett.
+`knowledge/` enthält keine vagen „KI-Zusammenfassungen". Sie umfasst 305 Power-Einheiten, destilliert aus den Originalwerken von 25 Denkern — Hume, Kant, Popper, Wittgenstein, Deutsch, Russell, Smith, Mises, Hayek, Laozi, Adler, Schopenhauer, Marcus Aurelius, Nietzsche, Camus, Aristoteles, Mill, Weber, Keynes, Friedman, Schumpeter, Soros, Grove, Darwin, Feynman, Einstein, Newton, Shannon, Turing, Bacon, Descartes, Munger, Kahneman, Thaler, Taleb, Drucker, Porter, Simon, Coase, Pinker, Dennett.
 
 Jede Einheit trägt ihre Originalquelle. Kein „glaub mir" — nur „hier ist die Quellenangabe, urteile selbst."
 
-- `能量库/powers_poe.jsonl` — der Master-Datensatz
+- `powers/powers_poe.jsonl` — der Master-Datensatz
 - `Skill知识包/` — 12 wissensbasierte Pakete pro Skill
-- `哲学概念词典.md` — Schnellreferenz mit 80 Konzepten
+- `philosophy-glossary.md` — Schnellreferenz mit 80 Konzepten
 
 ---
 

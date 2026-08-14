@@ -107,13 +107,13 @@ Nouveau ici ? Lisez le [guide de démarrage en 3 minutes](QUICKSTART.fr.md) (zé
 
 ## Base de connaissances : 305 unités · 25 penseurs
 
-`知识库/` ne contient pas de vagues « résumés d'IA ». Elle rassemble 305 unités de puissance distillées des œuvres originales de 25 penseurs — Hume, Kant, Popper, Wittgenstein, Deutsch, Russell, Smith, Mises, Hayek, Laozi, Adler, Schopenhauer, Marc Aurèle, Nietzsche, Camus, Aristote, Mill, Weber, Keynes, Friedman, Schumpeter, Soros, Grove, Darwin, Feynman, Einstein, Newton, Shannon, Turing, Bacon, Descartes, Munger, Kahneman, Thaler, Taleb, Drucker, Porter, Simon, Coase, Pinker, Dennett.
+`knowledge/` ne contient pas de vagues « résumés d'IA ». Elle rassemble 305 unités de puissance distillées des œuvres originales de 25 penseurs — Hume, Kant, Popper, Wittgenstein, Deutsch, Russell, Smith, Mises, Hayek, Laozi, Adler, Schopenhauer, Marc Aurèle, Nietzsche, Camus, Aristote, Mill, Weber, Keynes, Friedman, Schumpeter, Soros, Grove, Darwin, Feynman, Einstein, Newton, Shannon, Turing, Bacon, Descartes, Munger, Kahneman, Thaler, Taleb, Drucker, Porter, Simon, Coase, Pinker, Dennett.
 
 Chaque unité indique sa source originale. Pas de « croyez-moi sur parole » — seulement « voici la citation, jugez par vous-même ».
 
-- `能量库/powers_poe.jsonl` — le jeu de données maître
+- `powers/powers_poe.jsonl` — le jeu de données maître
 - `Skill知识包/` — 12 packs de connaissances dédiés aux skills
-- `哲学概念词典.md` — référence rapide de 80 concepts
+- `philosophy-glossary.md` — référence rapide de 80 concepts
 
 ---
 

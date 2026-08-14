@@ -55,19 +55,20 @@ for (const [rel, content] of Object.entries(files)) {
   }
 }
 
+// repo template file (English) -> vault file (Chinese, runtime convention)
 const templateNames = [
-  "问题单元模板.md",
-  "概念单元模板.md",
-  "观点单元模板.md",
-  "案例单元模板.md",
-  "方案单元模板.md",
-  "主题地图模板.md",
-  "选题装配模板.md",
+  ["question-unit-template.md", "问题单元模板.md"],
+  ["concept-unit-template.md", "概念单元模板.md"],
+  ["viewpoint-unit-template.md", "观点单元模板.md"],
+  ["case-unit-template.md", "案例单元模板.md"],
+  ["solution-unit-template.md", "方案单元模板.md"],
+  ["topic-map-template.md", "主题地图模板.md"],
+  ["topic-assembly-template.md", "选题装配模板.md"],
 ];
 
-for (const name of templateNames) {
-  const src = path.join(skillRoot, "templates", name);
-  const dst = path.join(targetRoot, "04-模板", name);
+for (const [srcName, dstName] of templateNames) {
+  const src = path.join(skillRoot, "templates", srcName);
+  const dst = path.join(targetRoot, "04-模板", dstName);
   fs.copyFileSync(src, dst);
 }
 
@@ -79,16 +80,17 @@ for (const name of ["AGENTS.md", "CLAUDE.md", "README.md", "SOURCE_OF_TRUTH.md"]
 }
 
 const scaffoldRules = path.join(skillRoot, "scaffold", "rules");
-for (const name of [
-  "内容单元字段规范.md",
-  "内容单元关系规则.md",
-  "内容单元去重与版本规则.md",
-  "处理流程.md",
-  "新增文稿进入系统流程.md",
-  "来源命名规范.md",
+// repo scaffold rule file (English) -> vault file (Chinese, runtime convention)
+for (const [srcName, dstName] of [
+  ["content-unit-field-spec.md", "内容单元字段规范.md"],
+  ["content-unit-relations.md", "内容单元关系规则.md"],
+  ["content-unit-dedup-and-versioning.md", "内容单元去重与版本规则.md"],
+  ["processing-flow.md", "处理流程.md"],
+  ["new-manuscript-intake.md", "新增文稿进入系统流程.md"],
+  ["source-naming-convention.md", "来源命名规范.md"],
 ]) {
-  const src = path.join(scaffoldRules, name);
-  const dst = path.join(targetRoot, "00-规则与索引", name);
+  const src = path.join(scaffoldRules, srcName);
+  const dst = path.join(targetRoot, "00-规则与索引", dstName);
   fs.copyFileSync(src, dst);
 }
 

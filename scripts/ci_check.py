@@ -3,7 +3,7 @@
 
 Checks:
   1. Every skills/*/SKILL.md has valid YAML frontmatter with a `lang:` field.
-  2. Every line in 知识库/能量库/powers_poe.jsonl is valid JSON and carries the
+  2. Every line in knowledge/powers/powers_poe.jsonl is valid JSON and carries the
      required fields with legal values.
   3. install.sh parses (bash -n equivalent via subprocess).
   4. Cross-reference: every id in the jsonl is unique; knowledge packs reference
@@ -54,7 +54,7 @@ def check_frontmatter():
 
 
 def check_jsonl():
-    path = os.path.join(ROOT, "知识库", "能量库", "powers_poe.jsonl")
+    path = os.path.join(ROOT, "knowledge", "powers", "powers_poe.jsonl")
     if not os.path.isfile(path):
         fail("jsonl", "powers_poe.jsonl missing")
         return
@@ -102,11 +102,11 @@ def check_install_sh():
 
 
 def check_knowledge_packs():
-    packs_dir = os.path.join(ROOT, "知识库", "Skill知识包")
+    packs_dir = os.path.join(ROOT, "knowledge", "skill-packs")
     if not os.path.isdir(packs_dir):
         fail("packs", "Skill知识包/ missing")
         return
-    jsonl = os.path.join(ROOT, "知识库", "能量库", "powers_poe.jsonl")
+    jsonl = os.path.join(ROOT, "knowledge", "powers", "powers_poe.jsonl")
     known_ids = set()
     with open(jsonl, encoding="utf-8") as f:
         for line in f:

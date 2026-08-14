@@ -107,13 +107,13 @@ Después de instalar, **solo necesitas recordar un comando: `/poe`.** No aprenda
 
 ## Base de conocimiento: 305 unidades · 25 pensadores
 
-`知识库/` no contiene vagos «resúmenes de IA». Contiene 305 unidades de poder destiladas de las obras originales de 25 pensadores: Hume, Kant, Popper, Wittgenstein, Deutsch, Russell, Smith, Mises, Hayek, Laozi, Adler, Schopenhauer, Marco Aurelio, Nietzsche, Camus, Aristóteles, Mill, Weber, Keynes, Friedman, Schumpeter, Soros, Grove, Darwin, Feynman, Einstein, Newton, Shannon, Turing, Bacon, Descartes, Munger, Kahneman, Thaler, Taleb, Drucker, Porter, Simon, Coase, Pinker, Dennett.
+`knowledge/` no contiene vagos «resúmenes de IA». Contiene 305 unidades de poder destiladas de las obras originales de 25 pensadores: Hume, Kant, Popper, Wittgenstein, Deutsch, Russell, Smith, Mises, Hayek, Laozi, Adler, Schopenhauer, Marco Aurelio, Nietzsche, Camus, Aristóteles, Mill, Weber, Keynes, Friedman, Schumpeter, Soros, Grove, Darwin, Feynman, Einstein, Newton, Shannon, Turing, Bacon, Descartes, Munger, Kahneman, Thaler, Taleb, Drucker, Porter, Simon, Coase, Pinker, Dennett.
 
 Cada unidad lleva su fuente original. Nada de «confía en mí» — solo «aquí está la cita, juzga por ti mismo».
 
-- `能量库/powers_poe.jsonl` — el dataset maestro
+- `powers/powers_poe.jsonl` — el dataset maestro
 - `Skill知识包/` — 12 paquetes de conocimiento por skill
-- `哲学概念词典.md` — referencia rápida de 80 conceptos
+- `philosophy-glossary.md` — referencia rápida de 80 conceptos
 
 ---
 

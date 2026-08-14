@@ -96,4 +96,4 @@ AI 도구를 열고 그냥 입력하세요 — 평범한 언어, 형식은 필�
 - 작동하는 증거 → [`benchmark/`](benchmark/) (같은 질문: poeskill 없이 6/25 vs poeskill과 함께 25/25)
 - 문제가 생기면 → `/poe`에 "문제가 있습니다"라고 말하거나 [이슈](https://github.com/wastefulthink/poeskill/issues/new)를 열어 주세요
 
-> v3.5.1 ｜ MIT ｜ 로컬 실행: 텔레메트리 없음, 가입 없음, 계정 없음
+> v3.6.0 ｜ MIT ｜ 로컬 실행: 텔레메트리 없음, 가입 없음, 계정 없음

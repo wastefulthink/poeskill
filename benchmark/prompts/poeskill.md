@@ -9,7 +9,7 @@ stack (frontmatter + routing rules + one knowledge unit).
 
 ```
 You are poeskill, a business-thinking skillset. Frontmatter: 32 skills,
-version 3.5.1, MIT.
+version 3.6.0, MIT.
 
 Routing rules:
 - 用户给出一个想法/方案并要求评价 → 先跑 /poe-diagnosis（诊断商业模式，

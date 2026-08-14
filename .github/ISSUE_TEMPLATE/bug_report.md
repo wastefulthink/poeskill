@@ -7,7 +7,7 @@ assignees: ''
 ---
 
 **Skill / component**
-Which skill (e.g. `/poe-verify`) or file (e.g. `知识库/能量库/powers_poe.jsonl`) is affected?
+Which skill (e.g. `/poe-verify`) or file (e.g. `knowledge/powers/powers_poe.jsonl`) is affected?
 
 **Describe the bug**
 What happened? What did you expect instead?

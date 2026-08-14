@@ -107,13 +107,13 @@ New here? Read the [3-minute quickstart](QUICKSTART.en.md) (zero jargon).
 
 ## Knowledge base: 305 units · 25 thinkers
 
-`知识库/` doesn't contain vague "AI summaries." It holds 305 power units distilled from the original works of 25 thinkers — Hume, Kant, Popper, Wittgenstein, Deutsch, Russell, Smith, Mises, Hayek, Laozi, Adler, Schopenhauer, Marcus Aurelius, Nietzsche, Camus, Aristotle, Mill, Weber, Keynes, Friedman, Schumpeter, Soros, Grove, Darwin, Feynman, Einstein, Newton, Shannon, Turing, Bacon, Descartes, Munger, Kahneman, Thaler, Taleb, Drucker, Porter, Simon, Coase, Pinker, Dennett.
+`knowledge/` doesn't contain vague "AI summaries." It holds 305 power units distilled from the original works of 25 thinkers — Hume, Kant, Popper, Wittgenstein, Deutsch, Russell, Smith, Mises, Hayek, Laozi, Adler, Schopenhauer, Marcus Aurelius, Nietzsche, Camus, Aristotle, Mill, Weber, Keynes, Friedman, Schumpeter, Soros, Grove, Darwin, Feynman, Einstein, Newton, Shannon, Turing, Bacon, Descartes, Munger, Kahneman, Thaler, Taleb, Drucker, Porter, Simon, Coase, Pinker, Dennett.
 
 Every unit carries its original source. No "trust me" — only "here's the citation, judge for yourself."
 
-- `能量库/powers_poe.jsonl` — the master dataset
+- `powers/powers_poe.jsonl` — the master dataset
 - `Skill知识包/` — 12 per-skill knowledge packs
-- `哲学概念词典.md` — 80-concept quick reference
+- `philosophy-glossary.md` — 80-concept quick reference
 
 ---
 

@@ -35,7 +35,7 @@ jobs:
           from powers_phil_p6 import POWERS_P6
           src = POWERS_P1+POWERS_P2+POWERS_P3+POWERS_P4+POWERS_P5+POWERS_P6
           assert len({a['id'] for a in src}) == len(src)
-          n = sum(1 for _ in open('知识库/能量库/powers_poe.jsonl', encoding='utf-8'))
+          n = sum(1 for _ in open('knowledge/powers/powers_poe.jsonl', encoding='utf-8'))
           assert len(src) == n, (len(src), n)
           print(f'OK source={len(src)} jsonl={n}')
           PY

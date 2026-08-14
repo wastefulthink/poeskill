@@ -22,9 +22,9 @@ be constructive.
 
 ```
 skills/                      32 skills (SKILL.md + optional scripts/docs)
-知识库/能量库/powers_poe.jsonl   master dataset (305 power units)
-知识库/Skill知识包/            per-skill knowledge packs (generated)
-知识库/哲学概念词典.md          80-concept dictionary (generated)
+knowledge/powers/powers_poe.jsonl   master dataset (305 power units)
+knowledge/skill-packs/            per-skill knowledge packs (generated)
+knowledge/philosophy-glossary.md          80-concept dictionary (generated)
 scripts/                     build + CI scripts
 install.sh                   one-line installer
 ```

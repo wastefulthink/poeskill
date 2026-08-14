@@ -2,6 +2,22 @@
 
 All notable changes to poeskill are documented here. Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [3.6.0] - 2026-08-14 — English paths
+
+### Changed
+- **仓库内全部中文路径改为英文**（27 处，`git mv` 保留历史）：
+  - `知识库/` → `knowledge/`；`知识库/能量库/` → `knowledge/powers/`；
+    `知识库/Skill知识包/` → `knowledge/skill-packs/`
+  - `哲学概念词典.md` → `philosophy-glossary.md`
+  - 12 个 `poe-*_哲学知识包.md` → `poe-*_pack.md`
+  - poe-content-system 的 6 个 scaffold 规则与 7 个模板改为英文文件名
+    （如 `processing-flow.md`、`topic-map-template.md`）
+- 同步更新约 30 处引用：`install.sh`、`ci_check.py`、`ci.yml`、`build_phil.py`、
+  9 语言 README、SKILL 文档、i18n 文档等。
+- `init-content-system.js` 改为「英文源文件 → 中文 vault 目标名」映射，
+  用户 vault 内的运行时目录约定（`00-规则与索引/`、`04-模板/` 等）保持不变。
+- `build_phil.py` 输出路径更新，已验证在新路径下完整复现（305 条零 diff）。
+
 ## [3.5.1] - 2026-08-14 — sponsor link
 
 ### Added
@@ -84,7 +100,7 @@ All notable changes to poeskill are documented here. Format: [Keep a Changelog](
 ## [3.1.0] - 2026-08-14
 
 ### Changed
-- "原子库" renamed to "能量库", `atoms` → `powers` across repo, delivery dir and
+- "原子库" renamed to "powers", `atoms` → `powers` across repo, delivery dir and
   installed copies (36 files).
 - All 305-position-ready schema: power units carry `language: zh-CN`; all 32
   `SKILL.md` gain `lang: zh-CN` frontmatter.

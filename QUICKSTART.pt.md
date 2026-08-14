@@ -108,4 +108,4 @@ para você ter um mapa mental:
 - Qualquer problema → diga ao `/poe` "tenho um problema", ou abra uma
   [issue](https://github.com/wastefulthink/poeskill/issues/new)
 
-> v3.5.1 ｜ MIT ｜ Roda localmente: sem telemetria, sem cadastro, sem conta
+> v3.6.0 ｜ MIT ｜ Roda localmente: sem telemetria, sem cadastro, sem conta

@@ -108,8 +108,8 @@ poe 家族的方法论来自一套固定的框架视角，且输出由 LLM 生�
 
 核查时优先参考哲学知识库中的一手原著来源（而非模型记忆）：
 
-- 哲学能量库：`../../知识库/能量库/powers_poe.jsonl`
-- 本 skill 的知识包：`../../知识库/Skill知识包/poe-verify_哲学知识包.md`
+- 哲学能量库：`../../knowledge/powers/powers_poe.jsonl`
+- 本 skill 的知识包：`../../knowledge/skill-packs/poe-verify_pack.md`
 
 查询方式：用 Grep 在 jsonl 中搜主题关键词，取 confidence=high 的条目作为对照信源。
 

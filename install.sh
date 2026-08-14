@@ -81,10 +81,10 @@ install_into() {
   mkdir -p "$dest"
   cp -r "$POESKILL_HOME/skills/." "$dest/"
   say "技能已安装 → ${dest}（32 个技能 ｜ 32 skills）"
-  if [[ -d "$POESKILL_HOME/知识库" ]]; then
-    mkdir -p "$dest/../poeskill-知识库" 2>/dev/null || true
-    local kb_dest="$dest/../poeskill-知识库"
-    cp -r "$POESKILL_HOME/知识库/." "$kb_dest/" 2>/dev/null && say "知识库已安装 → ${kb_dest}（305 条 ｜ 305 units）"
+  if [[ -d "$POESKILL_HOME/knowledge" ]]; then
+    mkdir -p "$dest/../poeskill-knowledge" 2>/dev/null || true
+    local kb_dest="$dest/../poeskill-knowledge"
+    cp -r "$POESKILL_HOME/knowledge/." "$kb_dest/" 2>/dev/null && say "知识库已安装 → ${kb_dest}（305 条 ｜ 305 units）"
   fi
 }
 
