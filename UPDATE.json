@@ -1,5 +1,5 @@
 {
-  "version": "3.3.0",
+  "version": "3.4.0",
   "notice": "poeskill 3.3.0：新增 benchmark/ 可复现对比（同一决策题裸跑 6/25 vs poeskill 25/25），效果从口号变为可量化；README 双语增加 Benchmark 章节；ROADMAP 更新 Demo evidence 进度。",
   "details_url": "https://github.com/POESKILL_GITHUB_USER/poeskill/releases/tag/v3.3.0"
 }

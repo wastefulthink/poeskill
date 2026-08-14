@@ -99,6 +99,18 @@ cp -r 知识库 ~/poeskill-知识库
 
 > Windows without bash: run the same `cp -r` commands in PowerShell, or use Git Bash / WSL.
 
+## First 3 minutes
+
+After install you only need to remember **one command: `/poe`** — it routes
+you to the right skill, so you never have to learn 32 names.
+
+1. Install (one line, ~30s)
+2. Open your agent and type, plain language, no format:
+   `/poe I have an idea: a coffee shop AI queue app. Should I do it?`
+3. Notice it challenges your premise before it agrees. That's the point.
+
+New here? → [QUICKSTART.md](QUICKSTART.md) · 中文 → [QUICKSTART.zh-CN.md](QUICKSTART.zh-CN.md)
+
 ## Knowledge base: 305 power units, 25 thinkers
 
 `知识库/` contains **305 power units** distilled from **25 thinkers** (Hume, Kant, Popper, Wittgenstein, Deutsch, Russell, Smith, Mises, Hayek, Laozi, Adler, Schopenhauer, Marcus Aurelius, Nietzsche, Camus, Aristotle, Mill, Weber, Keynes, Friedman, Schumpeter, Soros, Grove, Darwin, Feynman, Einstein, Newton, Shannon, Turing, Bacon, Descartes, Munger, Kahneman, Thaler, Taleb, Drucker, Porter, Simon, Coase, Pinker, Dennett), each with an original source and an audience tag (🔬 scientist-leaning / 🔥 broad appeal / 💼 business-frequency / ⚠️ use selectively).

@@ -2,6 +2,19 @@
 
 All notable changes to poeskill are documented here. Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [3.4.0] - 2026-08-14 — beginner-friendly
+
+### Added
+- `QUICKSTART.md` / `QUICKSTART.zh-CN.md` — 3-minute onboarding, no jargon:
+  one command to remember (`/poe`), a copy-paste first sentence, a plain-
+  language situation table, and a Windows section.
+- README (EN/ZH): new "First 3 minutes" section right after Install —
+  "you only need to remember one command" + sample first prompt.
+
+### Changed
+- `/poe` onboarding (mode C): now explicitly tells first-timers they only
+  need to remember `/poe` — no need to learn any of the 32 skill names.
+
 ## [3.3.0] - 2026-08-14 — measurable
 
 ### Added

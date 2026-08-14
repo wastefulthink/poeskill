@@ -21,7 +21,7 @@ description: poeskill 商业工具箱主入口，提供新手教程、任务前�
 每次进入本 Skill，在判断模式和路由之前，必须先定位本 `SKILL.md` 所在目录，并执行该目录中的版本检查脚本：
 
 ```bash
-POE_LOCAL_VERSION="3.3.0"; bash "<本 SKILL.md 所在目录>/scripts/check-update.sh" "$POE_LOCAL_VERSION"
+POE_LOCAL_VERSION="3.4.0"; bash "<本 SKILL.md 所在目录>/scripts/check-update.sh" "$POE_LOCAL_VERSION"
 ```
 
 执行规则：
@@ -71,6 +71,8 @@ POE_LOCAL_VERSION="3.3.0"; bash "<本 SKILL.md 所在目录>/scripts/check-updat
 首次触发时，按以下内容回复：
 
 > 欢迎使用 poeskill。它会根据你当前的处境，选择合适的思考和执行工具，帮你推进真实任务。
+>
+> **你只需要记住一个命令：`/poe`。** 32 个 skill 的名字、触发词、用法都不用记——每次你回来输入 `/poe`，我都会自动判断该用什么。
 >
 > 你可以把一个真实任务、模糊想法、一段材料，或一件推进不下去的事直接交给我。无需提前判断该用哪个 Skill，也不用先把问题整理完整。
 >
