@@ -1,103 +1,145 @@
 # poeskill
 
-> **Language**: [English](README.en.md) | **简体中文** (current) | 其他语言翻译见 [i18n/](i18n/)
+> **Language**: English (current) | [简体中文](README.zh-CN.md) | translations: see [i18n/](i18n/)
 
-一个面向真实处境的商业思维工具箱。给你一套可交互的诊断、内容、认知与系统工具，帮你把模糊的问题想清楚、把想清楚的事做出来。
+**Your AI keeps agreeing with you. poeskill is the toolkit that teaches it to push back.**
 
-> **完全独立重写的开源版本**：本仓库不包含上游  的任何作者署名文本、个人推文数据库、付费社群导流或遥测代码。方法论思路受  启发，但全部内容（skill 提示词、案例、知识库、脚本）均已重写为原创表达。许可证为 MIT。
+32 skills that turn any agent (Claude Code, Codex, Cline, WorkBuddy, …) into a critical-thinking partner for real business situations — diagnosing problems, stress-testing conclusions, dismantling buzzwords, and turning vague wishes into checkable goals.
 
-## 为什么叫 poe
+- ✅ **Original, from scratch.** No upstream author text, no personal tweet database, no paid-community funnel, no telemetry. Methodologically inspired by [](https://github.com//) (), fully rewritten under MIT.
+- 📚 **A verified knowledge core.** 305 power units distilled from 25 thinkers — Hume to Hayek, Feynman to Kahneman — every unit carrying its original source (citation link, title, year).
+- 🌍 **Language-neutral data, translatable content.** Power units are tagged `language`, skills carry `lang:` in frontmatter, i18n workflow documented.
 
-起名 "poe" 有三个层面：
+## Why the name "poe"
 
-1. **致敬埃德加·爱伦·坡（Edgar Allan Poe）**——推理文学的奠基人。他笔下的侦探从不轻信表面叙事，而是从细小的线索反推真相。这正是本工具箱的气质：`/poe-diagnosis` 从症状探病根、`/poe-verify` 对任何结论做反方核查、`/poe-deconstruct` 拆解被滥用的大词——每一件工具都在做"怀疑表面、重建真相"这件事。
+Three layers:
 
-2. **Problem-Oriented Engine（面向问题的引擎）**——三个字母的展开。这里所有工具都以"问题"为起点：把模糊问题说清楚（`/poe-good-question`）、把想做却做不动的问题拆开（`/poe-action`）、把长期问题建成档案（`/poe-decision`）。它不生产标准答案，只生产更好的问题与更可靠的判断。
+1. **A tribute to Edgar Allan Poe** — the founding figure of detective fiction. His detectives never trust surface narratives; they reconstruct the truth from small clues. That is exactly the temperament of this toolbox: `/poe-diagnosis` traces symptoms to root causes, `/poe-verify` stress-tests conclusions with counter-evidence, `/poe-deconstruct` dismantles abused buzzwords.
+2. **Problem-Oriented Engine** — the expansion of the three letters. Every tool starts from a problem, not from an answer.
+3. **An independent renaming** — the upstream project was a personal skill set; this rewrite stands on its own. "poe" is short, pronounceable, and carries no negative connotations in any major language.
 
-3. **独立改名的背景**——上游原项目叫 （作者个人技能集），本项目在完全原创重写后连名字一并独立。"poe" 三个字母简短、易读、在各主流语言中都没有负面联想，适合多语言社区传播；同时以 `/poe-` 为前缀命名全部 skill，功能一目了然、便于检索与桥接。
+## Native prompt vs. poeskill
 
-## 它能做什么
+| | Plain prompting | poeskill |
+|---|---|---|
+| Problem statement | Vague, as you think it | `/poe-good-question` rewrites it into a reasoning-ready spec |
+| Diagnosis | Your first guess | `/poe-diagnosis` runs consultation + checkup modes, forces falsifiable conditions |
+| Conclusion quality | Sounds confident | `/poe-verify` adds source-strength grades (A–D) and counter-evidence |
+| Vague wish | Stays vague | `/poe-goal` turns it into a checkable deliverable with acceptance criteria |
+| "I know what to do but can't" | Advice | `/poe-action` finds the hidden goal the avoidance is serving |
+| Buzzwords | Repeated | `/poe-deconstruct` asks what the word actually refers to |
+| Knowledge | Generalization | 305 cited power units, per-skill knowledge packs |
 
-按使用场景分四组：
+## What it does
 
-**诊断业务 / 商业问题**
-- `/poe-diagnosis` — 商业模式诊断，问诊 + 体检两种模式，逐层消解问题
-- `/poe-decision` — 把长期决策建成可回填、可复盘的本地档案
-- `/poe-standard-answer` — 从商业史中寻找与你困境同构的历史机制
-- `/poe-benchmark` — 找对标，用筛选流程排除噪音
+**Diagnosing business / commercial problems**
+- `/poe-diagnosis` — business model diagnosis, consultation + checkup modes
+- `/poe-decision` — turn long-term decisions into local, reviewable archives
+- `/poe-standard-answer` — find historical mechanisms isomorphic to your dilemma
+- `/poe-benchmark` — find benchmarks, filter out noise with a screening process
 
-**内容创作全流程**
-- `/poe-good-question` — 把模糊问题改写成可推理的问题说明书
-- `/poe-content` — 选题到文案的完整内容诊断
-- `/poe-hook` — 短视频开头优化
-- `/poe-script-flow` — 逐字稿衔接与流失点检查
-- `/poe-resonate` / `/poe-spread` — 共鸣检测与传播心理解码
-- `/poe-ai-check` — 识别 AI 写作痕迹
-- `/poe-content-risk-check` — 发布前风险与平台审核检查
-- `/poe-xhs-title` — 小红书标题公式
-- `/poe-wechat-html` — Markdown 转微信公众号 HTML
+**Full content-creation pipeline**
+- `/poe-good-question` — rewrite vague questions into reasoning-ready problem statements
+- `/poe-content` — complete content diagnosis from topic to copy
+- `/poe-hook` — short-video opening optimization
+- `/poe-script-flow` — script continuity and drop-off checks
+- `/poe-resonate` / `/poe-spread` — resonance detection and communication psychology
+- `/poe-ai-check` — detect AI writing traces
+- `/poe-content-risk-check` — pre-publish risk and platform review checks
+- `/poe-xhs-title` — Xiaohongshu (RED) title formulas
+- `/poe-wechat-html` — Markdown to WeChat Official Account HTML
 
-**思维 / 认知工具**
-- `/poe-deconstruct` — 用语言分析视角拆解模糊概念
-- `/poe-action` — 用目的论视角诊断"知道该做却做不动"
-- `/poe-slowisfast` — 识别贪快与必要摩擦，设计长期复利路径
-- `/poe-goal` — 把模糊愿望整理成可检查的目标
+**Thinking / cognition tools**
+- `/poe-deconstruct` — dismantle vague concepts from a language-analysis angle
+- `/poe-action` — diagnose "I know what to do but can't move"
+- `/poe-slowisfast` — identify impatience vs. necessary friction, design compounding paths
+- `/poe-goal` — turn vague wishes into checkable goals
 
-**系统工具（维护 poeskill 自身）**
-- `/poe` — 主入口与动态路由
-- `/poe-chatroom` / `/poe-chatroom-market` — 多角色讨论（含市场秩序学派视角）
-- `/poe-save` / `/poe-restore` / `/poe-report` — 诊断状态存档、恢复与报告
-- `/poe-knowledge` / `/poe-content-system` — 本地知识库与内容资产工程
-- `/poe-learning` — 交互式学习
-- `/poe-verify` — 对任何结论做反方核查（证据溯源 / 反例 / 信源评级 / 利益冲突检查）
-- `/poe-update` — 从本仓库更新
-- `/poe-bridge` / `/poe-agent-migration` — 桥接到其他 Agent 与工作台迁移
+**System tools (maintaining poeskill itself)**
+- `/poe` — main entry and dynamic router
+- `/poe-chatroom` / `/poe-chatroom-market` — multi-role discussions (incl. market-order school view)
+- `/poe-save` / `/poe-restore` / `/poe-report` — diagnostic state archiving & reporting
+- `/poe-knowledge` / `/poe-content-system` — local knowledge base & content asset engineering
+- `/poe-learning` — interactive learning
+- `/poe-verify` — counter-verification of any conclusion (evidence tracing / counter-examples / source grading / conflict-of-interest checks)
+- `/poe-update` — self-update from this repository
+- `/poe-bridge` / `/poe-agent-migration` — bridge to other agents & workspace migration
+- `/poe-skill-cleaner` — audit skills for hidden commercial intent
 
-## 安装
+## Install
+
+One line (any platform with bash / Git Bash / WSL):
 
 ```bash
-# 1. 克隆仓库
-git clone https://github.com/<你的用户名>/poeskill.git
-
-# 2. 复制 skills 到你的 Agent 技能目录（以 WorkBuddy 为例）
-cp -r poeskill/skills/* ~/.workbuddy/skills/
-
-# 3. 知识库（可选，诊断类 skill 引用它做信源核验）
-cp -r poeskill/知识库/* 你希望存放的位置/
+curl -fsSL https://raw.githubusercontent.com/<your-user>/poeskill/main/install.sh | bash
 ```
 
-> 若你的 Agent 支持相对路径引用，直接把 `skills/` 与 `知识库/` 放在同一父目录下即可，skill 内已使用相对路径引用知识包。
+Or from a local clone:
 
-## 知识库：四大知识专题
+```bash
+git clone https://github.com/<your-user>/poeskill.git
+cd poeskill
+bash install.sh            # auto-detects your agent's skills directory
+bash install.sh --all      # install into every detected agent
+bash install.sh --target ~/.claude/skills
+```
 
-`知识库/` 内含 50 条能量知识，来自 15 位哲学家/物理学家的思想（休谟、康德、波普尔、维特根斯坦、多伊奇、罗素、斯密、米塞斯、哈耶克、老子、阿德勒、叔本华、马可·奥勒留、尼采、加缪），每条带原著出处与受众标注（🔬 科学家高偏好 / 🔥 大众高流量 / 💼 商业圈层高频 / ⚠️ 需选择性参考）。
+Manual install for a specific agent:
 
-- `能量库/powers_poe.jsonl` — 主数据（格式与原库兼容）
-- `Skill知识包/` — 按 skill 聚合的 12 个知识包
-- `哲学概念词典.md` — 高频概念速查
+```bash
+# Claude Code
+cp -r skills/* ~/.claude/skills/
+# Codex
+cp -r skills/* ~/.codex/skills/
+# WorkBuddy
+cp -r skills/* ~/.workbuddy/skills/
+# Knowledge base (optional, used by diagnostic skills for source verification)
+cp -r 知识库 ~/poeskill-知识库
+```
 
-## 批判性使用（重要）
+> Windows without bash: run the same `cp -r` commands in PowerShell, or use Git Bash / WSL.
 
-poeskill 是思维工具，不是答案提供者：
+## Knowledge base: 305 power units, 25 thinkers
 
-1. 所有结论型 skill 输出**必须**附带信源强度标注（A/B/C/D），C 级以下只能当思路
-2. 定性归因必须附可证伪条件
-3. 拿不准时跑 `/poe-verify` 做反方核查
-4. 涉及重大决策（投资、职业、健康），请交叉验证，不采信单一框架结论
-5. `/poe-action` 等心理类工具是自我认知辅助，不是心理咨询
+`知识库/` contains **305 power units** distilled from **25 thinkers** (Hume, Kant, Popper, Wittgenstein, Deutsch, Russell, Smith, Mises, Hayek, Laozi, Adler, Schopenhauer, Marcus Aurelius, Nietzsche, Camus, Aristotle, Mill, Weber, Keynes, Friedman, Schumpeter, Soros, Grove, Darwin, Feynman, Einstein, Newton, Shannon, Turing, Bacon, Descartes, Munger, Kahneman, Thaler, Taleb, Drucker, Porter, Simon, Coase, Pinker, Dennett), each with an original source and an audience tag (🔬 scientist-leaning / 🔥 broad appeal / 💼 business-frequency / ⚠️ use selectively).
 
-## 更新
+- `能量库/powers_poe.jsonl` — the master dataset (format-compatible with the original library)
+- `Skill知识包/` — 12 per-skill knowledge packs (30–160 units each)
+- `哲学概念词典.md` — 80-concept quick reference
 
-- 主入口每 24 小时最多联网检查一次版本（只读本仓库 `UPDATE.json`）
-- `/poe-update` 从本仓库同步，保留你的 `~/.poe/` 存档
-- 更新前建议先 `git pull` 对比变更
+## Why you should star this repo
 
-## 许可证
+- **It argues with you.** The entire point is to disagree — every diagnostic skill must attach a falsifiable condition and a source-strength grade to its conclusion.
+- **Everything is verifiable.** 305 units, each with a citation. No vibes, no "trust me".
+- **It runs locally.** No telemetry, no SaaS, no account. Your questions never leave your machine.
+- **MIT + fully original.** You can fork, vendor, and build on it.
 
-MIT License。详见 [LICENSE](LICENSE)。
+## Critical use (important)
 
-## 致谢与声明
+poeskill is a thinking tool, not an answer machine:
 
-- 方法论思路受 [](https://github.com//)（）启发，本仓库为独立重写的原创实现，不含其受保护内容
-- 本仓库无付费社群、无课程导流、无任何形式的商业变现入口
-- 知识库内容基于公开的哲学与经济学著作整理，引用均标注原著出处
+1. Every conclusion-type skill **must** attach a source-strength grade (A/B/C/D); below C it's only an idea
+2. Qualitative attributions must come with falsifiable conditions
+3. When unsure, run `/poe-verify` for counter-verification
+4. For high-stakes decisions (investment, career, health), cross-validate — never trust a single framework
+5. `/poe-action` and other psychological tools are self-awareness aids, not psychotherapy
+
+## Updating
+
+- The main entry checks `UPDATE.json` at most once per 24h
+- `/poe-update` syncs from this repository, keeping your `~/.poe/` archive
+- `git pull` before updating to review changes
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) (incl. i18n workflow), [ROADMAP.md](ROADMAP.md), and [CHANGELOG.md](CHANGELOG.md).
+
+## License
+
+MIT. See [LICENSE](LICENSE).
+
+## Acknowledgements
+
+- Methodological inspiration: [](https://github.com//) () — this repository is an independent, original rewrite and contains none of its protected content
+- No paid community, no course funnel, no monetization of any kind
+- Knowledge base content is organized from publicly available philosophical and economic works; every unit cites its original source

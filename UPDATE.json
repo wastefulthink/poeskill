@@ -1,5 +1,5 @@
 {
-  "version": "3.1.0",
-  "notice": "poeskill 3.1.0：能量库命名升级 + 多语言兼容。原子库→能量库、atoms→powers 全局更名；SKILL.md frontmatter 全部带 lang 标记；能量单元带 language 字段；新增 README.en.md 与 i18n/ 翻译规范（zh/en/ja/es/fr/de/ko/pt/ru）。",
-  "details_url": "https://github.com/POESKILL_GITHUB_USER/poeskill/releases/tag/v3.1.0"
+  "version": "3.2.0",
+  "notice": "poeskill 3.2.0：发布就绪版。知识库扩至 305 条能量（25 位思想家）、词典 80 词；新增 install.sh 一键安装（多 Agent 自动检测）；README 重构为反主流叙事 + 对比表，英文转正为主文件；新增 CI、issue/PR 模板、CoC、CONTRIBUTING/ROADMAP/CHANGELOG。",
+  "details_url": "https://github.com/POESKILL_GITHUB_USER/poeskill/releases/tag/v3.2.0"
 }

@@ -1,0 +1,40 @@
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run repo integrity checks
+        run: python scripts/ci_check.py
+
+      - name: Validate install.sh syntax
+        run: bash -n install.sh
+
+      - name: Verify knowledge base is reproducible
+        run: python -c "
+import sys; sys.path.insert(0, 'scripts')
+from powers_phil_p1 import POWERS_P1
+from powers_phil_p2 import POWERS_P2
+from powers_phil_p3 import POWERS_P3
+from powers_phil_p4 import POWERS_P4
+from powers_phil_p5 import POWERS_P5
+from powers_phil_p6 import POWERS_P6
+src = POWERS_P1+POWERS_P2+POWERS_P3+POWERS_P4+POWERS_P5+POWERS_P6
+assert len({a['id'] for a in src}) == len(src)
+n = sum(1 for _ in open('知识库/能量库/powers_poe.jsonl', encoding='utf-8'))
+assert len(src) == n, (len(src), n)
+print(f'OK source={len(src)} jsonl={n}')
+"
