@@ -36,6 +36,10 @@ def check_frontmatter():
         if not os.path.isfile(md):
             fail("frontmatter", f"skills/{name}: SKILL.md missing")
             continue
+        # every skill must ship a Codex agents/openai.yaml (poe-verify missed it once)
+        agent_yaml = os.path.join(skills_dir, name, "agents", "openai.yaml")
+        if not os.path.isfile(agent_yaml):
+            fail("frontmatter", f"skills/{name}: agents/openai.yaml missing")
         text = open(md, encoding="utf-8").read()
         m = re.match(r"^---\s*\n(.*?)\n---\s*\n", text, re.S)
         if not m:

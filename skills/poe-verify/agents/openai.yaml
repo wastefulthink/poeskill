@@ -1,0 +1,4 @@
+interface:
+  display_name: "poe-verify"
+  short_description: "对任何诊断结论、历史案例、商业建议做批判性反方核查：证据溯源、反例搜索、信源强度评级、可证伪性检查，输出带修正的核查报告"
+  default_prompt: "使用 $poe-verify，对以下结论做批判性反方核查。"
