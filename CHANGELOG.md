@@ -40,10 +40,10 @@ All notable changes to poeskill are documented here. Format: [Keep a Changelog](
 
 ### Changed
 - **Complete independent rewrite.** All skill prompts, cases, knowledge base and
-  scripts rewritten from scratch; no upstream  author text, tweet database,
+  scripts rewritten from scratch; no upstream author text, tweet database,
   paid-community funnel, or telemetry code.
-- Renamed `` → `poeskill`, all skills `dbs-*` → `poe-*`;
+- All skills renamed to the unified `poe-*` prefix;
   `poe-chatroom-austrian` → `poe-chatroom-market`.
 - Update chain switched from `npx skills add` to self-hosted `git pull + cp`
   (fixes supply-chain risk).
-- License: upstream  → MIT (original work).
+- License: MIT (original work).

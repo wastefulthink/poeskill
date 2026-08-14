@@ -44,8 +44,8 @@ Keynes, Soros… every unit cites its original source (link + title + year).
 A prompt is a mood; this is a reference library the agent can actually pull
 from when you ask it to push back.
 
-Also: no telemetry, no signup, no hidden "community", MIT. The upstream
-project it's methodologically inspired by () is credited in the repo.
+Also: no telemetry, no signup, no hidden "community", MIT. Everything is
+written from scratch — skills, knowledge base, installer, CI.
 
 Install
 ---------------

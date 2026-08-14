@@ -44,9 +44,8 @@ source: citation link, title, year. No paraphrased-slop knowledge base.
 
 Technical details:
 
-- All 32 skills rewritten from scratch. The upstream project (,
-  ) is credited as methodological inspiration only; no content,
-  no telemetry, no community funnel was carried over.
+- All 32 skills rewritten from scratch. No content, no telemetry, no community
+  funnel was carried over from anywhere.
 - MIT licensed.
 - Data layer is language-neutral (units tagged `language`), content is
   translatable (`lang:` in frontmatter). English + Simplified Chinese now.

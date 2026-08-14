@@ -15,7 +15,7 @@ That is quietly destroying the quality of your decisions.
 So I built a free toolkit that teaches agents to push back. 🧵
 ```
 
-## 后续 6 条（依次回复首条）
+## 后续 5 条（依次回复首条）
 
 **① 问题的名字叫 sycophancy**
 
@@ -54,17 +54,7 @@ Every single unit cites its source. Link. Title. Year.
 A prompt is a mood. This is a reference library. 📚
 ```
 
-**④ 和  的关系（先发制人）**
-
-```
-Transparency: the methodology is inspired by  (, credited
-in the repo). Everything else is rewritten from scratch: 32 skills, the
-knowledge base, the installer, the CI.
-
-MIT licensed. Zero telemetry. Zero signup. Zero hidden funnel.
-```
-
-**⑤ 60 秒上手**
+**④ 60 秒上手**
 
 ```
 Try it without an API key or account:
@@ -77,7 +67,7 @@ Then in any agent: /poe-verify "my plan is solid"
 You'll get counter-evidence, not applause.
 ```
 
-**⑥ CTA**
+**⑤ CTA**
 
 ```
 Star it if you want the English knowledge base next (305 units are

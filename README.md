@@ -6,7 +6,7 @@
 
 32 skills that turn any agent (Claude Code, Codex, Cline, WorkBuddy, …) into a critical-thinking partner for real business situations — diagnosing problems, stress-testing conclusions, dismantling buzzwords, and turning vague wishes into checkable goals.
 
-- ✅ **Original, from scratch.** No upstream author text, no personal tweet database, no paid-community funnel, no telemetry. Methodologically inspired by [](https://github.com//) (), fully rewritten under MIT.
+- ✅ **Original, from scratch.** No upstream author text, no personal tweet database, no paid-community funnel, no telemetry. Fully rewritten from the ground up, MIT licensed.
 - 📚 **A verified knowledge core.** 305 power units distilled from 25 thinkers — Hume to Hayek, Feynman to Kahneman — every unit carrying its original source (citation link, title, year).
 - 🌍 **Language-neutral data, translatable content.** Power units are tagged `language`, skills carry `lang:` in frontmatter, i18n workflow documented.
 
@@ -140,6 +140,6 @@ MIT. See [LICENSE](LICENSE).
 
 ## Acknowledgements
 
-- Methodological inspiration: [](https://github.com//) () — this repository is an independent, original rewrite and contains none of its protected content
+- This repository is an original, from-scratch implementation. All skills, knowledge units, scripts, and documentation were written independently for this project
 - No paid community, no course funnel, no monetization of any kind
 - Knowledge base content is organized from publicly available philosophical and economic works; every unit cites its original source

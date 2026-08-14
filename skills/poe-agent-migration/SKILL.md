@@ -235,7 +235,7 @@ Grok Build（Grok TUI）对 bridge 有明确要求：
 2. 可调用名使用小写英文 kebab-case；poeskill 正式 Skill 使用 `poe-` 前缀，例如 `poe-good-question`。
 3. 目录名、frontmatter 的 `name`、bridge 目录名和文档中的斜杠调用必须完全一致。
 4. 中文名称只可作为说明标题和自然语言意图，不能作为 `/` 调用别名。
-5. Codex 的 `agents/openai.yaml` 中，`interface.display_name` 必须与英文标准名完全一致，不能添加 `DBS｜`、中文功能名或其他展示前缀。
+5. Codex 的 `agents/openai.yaml` 中，`interface.display_name` 必须与英文标准名完全一致，不能添加中文功能名或其他展示前缀。
 6. `interface.short_description` 必须写清该 Skill 独有的处理对象、动作与主要结果；禁止批量套用通用模板，且不同 Skill 之间不能重复。
 
 不要让脚本根据标题临时取名，也不要保留中文或混合语言的斜杠别名。
