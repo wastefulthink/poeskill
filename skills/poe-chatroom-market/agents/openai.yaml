@@ -1,0 +1,4 @@
+interface:
+  display_name: "poe-chatroom-market"
+  short_description: "模拟哈耶克、米塞斯与 Claude 的市场秩序学派对话，讨论问题并总结分歧"
+  default_prompt: "使用 $poe-chatroom-market，从市场秩序学派视角讨论当前问题。"
