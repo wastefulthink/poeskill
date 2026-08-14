@@ -15,13 +15,13 @@
 
 ## 使用顺序
 
-1. 发布前：按 `08-launch-checklist.md` 的 A 部分逐项完成（替换 `POESKILL_GITHUB_USER`、push、打 tag、建 Release）
+1. 发布前：按 `08-launch-checklist.md` 的 A 部分逐项完成（替换 `wastefulthink`、push、打 tag、建 Release）
 2. 发布日：按 `08` 中 A3 的渠道顺序发 01→02→03→04，间隔 ≥ 2h
 3. 发布后 48h：提交 `05` 的 awesome PR，回评所有渠道
 4. 复盘：把指标填进 `08` 的 C 表，用于判断下一步
 
 ## 注意
 
-- 所有文案中的 `POESKILL_GITHUB_USER` 为占位符，发布前必须全局替换为真实 GitHub 用户名
+- 所有文案中的 `wastefulthink` 为占位符，发布前必须全局替换为真实 GitHub 用户名
 - 文案围绕"反主流叙事"钩子统一风格：诚实、具体、欢迎反驳——这和项目本身的定位一致
 - 当前知识库 305 条为中文策展，英文翻译是 star 过千后的复利引擎（见 ROADMAP）

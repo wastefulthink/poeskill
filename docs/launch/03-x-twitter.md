@@ -1,6 +1,6 @@
 # X / Twitter 发布物料
 
-> 发布前替换：`POESKILL_GITHUB_USER` → 真实 GitHub 用户名，并核对仓库 URL。
+> 发布前替换：`wastefulthink` → 真实 GitHub 用户名，并核对仓库 URL。
 > 规则：先发 Thread（1 + 6 条），1 小时后置顶补一条链接帖；不 @ 大 V，不蹭话题标签堆砌。
 
 ## Thread 首条（hook，必须单独发，别和后续合并）

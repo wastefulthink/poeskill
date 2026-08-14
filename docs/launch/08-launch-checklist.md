@@ -1,14 +1,14 @@
 # 发布总清单与复盘（Launch Checklist）
 
 > 这是首日发布战役的总控文件。发布前逐项勾完，发布后逐项记录。
-> 前置条件：GitHub connector 已连接；`POESKILL_GITHUB_USER` 已替换为真实用户名。
+> 前置条件：GitHub connector 已连接；`wastefulthink` 已替换为真实用户名。
 
 ---
 
 ## A. 发布前（T-2d ~ T-0h）——必须全部完成
 
 ### A1 仓库终检（T-1d 前）
-- [ ] `POESKILL_GITHUB_USER` 全部替换（grep 全仓确认无残留）
+- [ ] `wastefulthink` 全部替换（grep 全仓确认无残留）
 - [ ] `git push` 到远程，确认 GitHub Actions CI 绿
 - [ ] README 首屏截图 / 演示 gif 就位（可选，有更好）
 - [ ] 打 tag：`git tag v3.2.0 && git push --tags`

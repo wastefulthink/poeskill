@@ -1,6 +1,6 @@
 # Reddit 发布物料（r/ClaudeAI + r/LocalLLaMA）
 
-> 发布前替换：`POESKILL_GITHUB_USER` → 真实 GitHub 用户名。
+> 发布前替换：`wastefulthink` → 真实 GitHub 用户名。
 > 规则：两个 sub 帖错开 ≥ 2 小时发；正文不用同一模板，角度不同，避免"多平台同文"被降权。
 
 ---

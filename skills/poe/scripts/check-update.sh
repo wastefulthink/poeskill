@@ -6,7 +6,7 @@ set -uo pipefail
 LOCAL_VERSION="${1:-}"
 POE_DIR="$HOME/.poe"
 CACHE_FILE="$POE_DIR/update_check_at"
-REMOTE_URL="${POE_UPDATE_URL:-https://raw.githubusercontent.com/POESKILL_GITHUB_USER/poeskill/main/UPDATE.json}"
+REMOTE_URL="${POE_UPDATE_URL:-https://raw.githubusercontent.com/wastefulthink/poeskill/main/UPDATE.json}"
 CACHE_TTL=86400
 
 if [[ ! "$LOCAL_VERSION" =~ ^(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)$ ]]; then

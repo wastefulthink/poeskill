@@ -40,7 +40,7 @@ WorkBuddy) to argue with you instead of agreeing with you.
 - [x] One-line install: `curl -fsSL <repo-url>/install.sh | bash`
 - [x] Screenshots? → 需要时补一张 ASCII/终端演示
 
-Repo: https://github.com/POESKILL_GITHUB_USER/poeskill
+Repo: https://github.com/wastefulthink/poeskill
 ```
 
 ## 操作步骤

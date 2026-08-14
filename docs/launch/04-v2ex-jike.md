@@ -1,6 +1,6 @@
 # V2EX / 即刻 发布物料（中文）
 
-> 发布前替换：`POESKILL_GITHUB_USER` → 真实 GitHub 用户名，并核对仓库 URL。
+> 发布前替换：`wastefulthink` → 真实 GitHub 用户名，并核对仓库 URL。
 
 ---
 
@@ -14,7 +14,7 @@
 **正文**
 
 ```
-先说结论：https://github.com/POESKILL_GITHUB_USER/poeskill
+先说结论：https://github.com/wastefulthink/poeskill
 
 一句话：给 Claude Code / Codex / Cline / WorkBuddy 等任何支持 skills 目录的
 Agent 装上 32 个斜杠命令，让它在你说"我的方案没问题"时，先给你找出反例，
@@ -79,7 +79,7 @@ roadmap。
 知识库 305 条，从哈耶克到卡尼曼到索罗斯，每条带出处。
 MIT，无遥测，一行安装：./install.sh
 
-GitHub：https://github.com/POESKILL_GITHUB_USER/poeskill
+GitHub：https://github.com/wastefulthink/poeskill
 欢迎来 repo 里骂我 —— 骂得越狠越符合项目主旨（这真不是客套）
 ```
 

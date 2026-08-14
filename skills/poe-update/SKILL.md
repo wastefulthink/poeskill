@@ -12,7 +12,7 @@ description: 从 GitHub 更新 poeskill，并保留其他 Skill 与用户存档�
 
 ## 更新范围
 
-- 只更新本仓库 `POESKILL_GITHUB_USER/poeskill`（GitHub）。
+- 只更新本仓库 `wastefulthink/poeskill`（GitHub）。
 - 保留用户在 `~/.poe/` 中的存档、报告和决策记录。
 - 不更新用户安装的其他 Skill。
 - 不创建后台任务、定时任务或 Agent Hook。
@@ -29,7 +29,7 @@ description: 从 GitHub 更新 poeskill，并保留其他 Skill 与用户存档�
    if [ -d "$HOME/.poe/repo/.git" ]; then
      git -C "$HOME/.poe/repo" pull --ff-only
    else
-     git clone --depth 1 https://github.com/POESKILL_GITHUB_USER/poeskill.git "$HOME/.poe/repo"
+     git clone --depth 1 https://github.com/wastefulthink/poeskill.git "$HOME/.poe/repo"
    fi
    ```
 

@@ -1,6 +1,6 @@
 # Show HN 发布物料
 
-> 发布前替换：`POESKILL_GITHUB_USER` → 真实 GitHub 用户名，并核对仓库 URL。
+> 发布前替换：`wastefulthink` → 真实 GitHub 用户名，并核对仓库 URL。
 
 ## 推荐标题（≤80 字符，择一）
 

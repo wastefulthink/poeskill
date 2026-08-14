@@ -21,7 +21,7 @@
 整套安装：
 
 ```bash
-git clone --depth 1 https://github.com/POESKILL_GITHUB_USER/poeskill.git && cp -r poeskill/skills/* ~/.workbuddy/skills/
+git clone --depth 1 https://github.com/wastefulthink/poeskill.git && cp -r poeskill/skills/* ~/.workbuddy/skills/
 ```
 
 单独安装本模块：
