@@ -6,6 +6,16 @@ A business thinking toolbox for real situations. It gives you an interactive set
 
 > **Fully independent open-source rewrite**: This repository contains none of the upstream  author's text, personal tweet database, paid-community funnel, or telemetry code. The methodological approach is inspired by , but all content (skill prompts, cases, knowledge base, scripts) has been rewritten from scratch as original expression. Licensed under MIT.
 
+## Why the name "poe"
+
+The name "poe" works on three levels:
+
+1. **A tribute to Edgar Allan Poe** — the founding figure of detective fiction. His detectives never trust surface narratives; they reconstruct the truth from small clues. That is exactly the temperament of this toolbox: `/poe-diagnosis` traces symptoms back to root causes, `/poe-verify` stress-tests any conclusion with counter-evidence, `/poe-deconstruct` dismantles abused buzzwords — every tool is an exercise in "doubting the surface, rebuilding the truth."
+
+2. **Problem-Oriented Engine** — the expansion of the three letters. Every tool here starts from a problem: turning vague questions into reasoning-ready ones (`/poe-good-question`), unpacking "I know what to do but can't move" (`/poe-action`), and archiving long-term decisions (`/poe-decision`). It does not produce canned answers; it produces better questions and more reliable judgments.
+
+3. **An independent renaming** — the upstream project was called  (the original author's personal skill set). Since this project was completely rewritten from scratch, the name had to stand on its own as well. "poe" is short, easy to pronounce, and carries no negative connotations in any major language, which suits a multilingual community. Prefixing every skill with `/poe-` also makes the whole set instantly recognizable, searchable, and bridgeable.
+
 ## What it does
 
 Four groups by use case:
