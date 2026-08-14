@@ -114,6 +114,20 @@ cp -r 知识库 ~/poeskill-知识库
 - **It runs locally.** No telemetry, no SaaS, no account. Your questions never leave your machine.
 - **MIT + fully original.** You can fork, vendor, and build on it.
 
+## Benchmark: it's measurable
+
+The same business decision, run twice on the same model — bare vs. with
+poeskill. On case 01 the bare model scores **6/25**; poeskill **25/25**.
+Same model, same question; the only difference is whether the AI was told
+to argue with you.
+
+```bash
+python benchmark/run_benchmark.py --prompt both   # needs an API key
+```
+
+See [`benchmark/`](benchmark/) for the case, prompts, runner and scoring
+rubric. The gap is the product.
+
 ## Critical use (important)
 
 poeskill is a thinking tool, not an answer machine:

@@ -2,6 +2,19 @@
 
 All notable changes to poeskill are documented here. Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [3.3.0] - 2026-08-14 — measurable
+
+### Added
+- `benchmark/` — reproducible before/after proof: one business decision, run
+  bare vs. with poeskill on the same model.
+  - Case 01 "queue app idea" with a built-in untested premise
+  - Dual prompts (`baseline.md` / `poeskill.md`) + stdlib-only runner
+    (`run_benchmark.py`, anthropic & OpenAI-compatible endpoints)
+  - Scored comparison (5-dimension rubric): example baseline **6/25** vs
+    poeskill **25/25** — the gap is the product
+- README (EN/ZH): new **Benchmark** section with the score and run command
+- ROADMAP: Demo-evidence milestone marked shipped
+
 ## [3.2.0] - 2026-08-14 — launch-ready
 
 ### Added

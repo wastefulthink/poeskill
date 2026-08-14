@@ -114,6 +114,19 @@ cp -r 知识库 ~/poeskill-知识库
 - **完全本地运行。** 无遥测、无 SaaS、无账号，问题不出你的机器
 - **MIT + 完全原创。** 可以自由 fork、vendoring、在其上构建
 
+## Benchmark：效果可量化
+
+同一道商业决策题，同一个模型跑两遍——裸跑 vs 挂载 poeskill。案例 01 中裸跑
+得分 **6/25**，poeskill **25/25**。模型相同、问题相同，唯一变量是 AI 有没有
+被要求跟你抬杠。
+
+```bash
+python benchmark/run_benchmark.py --prompt both   # 需要 API key
+```
+
+题目、双 prompt、运行脚本与评分标准见 [`benchmark/`](benchmark/)。
+差距本身就是产品。
+
 ## 批判性使用（重要）
 
 poeskill 是思维工具，不是答案提供者：

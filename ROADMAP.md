@@ -18,6 +18,9 @@ commitments.
 - **Demo evidence**: a real worked example per flagship skill
   (`/poe-verify` on a viral claim, `/poe-diagnosis` on a public business case),
   screenshots + a GIF in the README.
+  - [x] `benchmark/` shipped: case 01 + dual prompts + stdlib runner +
+        scored comparison (baseline 6/25 vs poeskill 25/25)
+  - [ ] extend benchmark to cases 02–03, publish a multi-model scoreboard
 - **i18n launch pack**: `SKILL.en.md` for the 10 most-used skills (frontmatter
   translations only — keep command names).
 - **Multi-platform verification**: test install paths for Codex, Cline, Kiro,
