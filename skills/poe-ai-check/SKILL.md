@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 name: poe-ai-check
 description: 扫描文案中的 AI 写作特征并输出检测报告，默认只诊断不改写。用户要求检查 AI 味、AI 痕迹或机器化表达时使用。
 ---

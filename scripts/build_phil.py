@@ -1,31 +1,33 @@
 # -*- coding: utf-8 -*-
-"""构建 poeskill 四大知识专题库：atoms_poe.jsonl + 12 个哲学知识包 + 哲学概念词典"""
+"""构建 poeskill 四大知识专题库：powers_poe.jsonl + 12 个哲学知识包 + 哲学概念词典"""
 import json, os, sys, collections
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from atoms_phil_p1 import ATOMS_P1
-from atoms_phil_p2 import ATOMS_P2
+from powers_phil_p1 import POWERS_P1
+from powers_phil_p2 import POWERS_P2
 
-ATOMS = ATOMS_P1 + ATOMS_P2
+POWERS = POWERS_P1 + POWERS_P2
 OUT = r"C:/Users/Administrator/WorkBuddy/2026-08-14-14-39-44/poeskill-知识库"
 
 # ---------- 校验 ----------
-ids = [a["id"] for a in ATOMS]
+ids = [a["id"] for a in POWERS]
 assert len(ids) == len(set(ids)), "id 重复"
-for a in ATOMS:
+for a in POWERS:
     req = {"id","knowledge","original","url","date","topics","skills","type","confidence"}
     assert req.issubset(set(a)), f"缺字段: {a['id']}"
     assert a["confidence"] in ("high","medium","low")
     assert a["type"] in ("principle","method","case","anti-pattern","insight","tool")
     assert isinstance(a["skills"], list) and a["skills"], f"skills 为空: {a['id']}"
-print(f"原子总数: {len(ATOMS)}，校验通过")
+print(f"能量总数: {len(POWERS)}，校验通过")
 
-# ---------- 输出 jsonl ----------
-os.makedirs(f"{OUT}/原子库", exist_ok=True)
-with open(f"{OUT}/原子库/atoms_poe.jsonl", "w", encoding="utf-8") as f:
-    for a in ATOMS:
-        f.write(json.dumps(a, ensure_ascii=False) + "\n")
-print("atoms_poe.jsonl 已生成")
+# ---------- 输出 jsonl（注入语言字段，支持 i18n）----------
+os.makedirs(f"{OUT}/能量库", exist_ok=True)
+with open(f"{OUT}/能量库/powers_poe.jsonl", "w", encoding="utf-8") as f:
+    for a in POWERS:
+        p = dict(a)
+        p["language"] = "zh-CN"   # 源语言标记；翻译版请复制条目并改 language + knowledge
+        f.write(json.dumps(p, ensure_ascii=False) + "\n")
+print("powers_poe.jsonl 已生成")
 
 # ---------- 知识包 ----------
 PACK_META = {
@@ -44,12 +46,13 @@ PACK_META = {
 }
 os.makedirs(f"{OUT}/Skill知识包", exist_ok=True)
 for skill, (title, src) in PACK_META.items():
-    sel = [a for a in ATOMS if skill in a["skills"]]
+    sel = [a for a in POWERS if skill in a["skills"]]
     lines = []
     lines.append(f"# {skill}：{title}（哲学知识包）")
     lines.append("")
-    lines.append(f"> 来源：{src} | 共 {len(sel)} 个知识原子 | 四大知识专题（科学认识论·市场自发秩序·人性动机·价值哲学）")
+    lines.append(f"> 来源：{src} | 共 {len(sel)} 个能量单元 | 四大知识专题（科学认识论·市场自发秩序·人性动机·价值哲学）")
     lines.append("")
+    lines.append("> 语言：zh-CN（源语言）。翻译版请复制本包并按 i18n 规范翻译 knowledge 字段。")
     lines.append("> 受众标注：🔬科学家高偏好 ｜ 🔥大众高流量 ｜ 💼商业圈层高频 ｜ ⚠️需选择性参考，谨防断章取义")
     lines.append("")
     for a in sel:
@@ -104,7 +107,7 @@ CONCEPTS = [
 lines = []
 lines.append("# 哲学概念词典（poeskill）")
 lines.append("")
-lines.append("> 由 atoms_poe.jsonl 提炼的高频概念 → 出处人物 → 一句话核心 → 商业场景。")
+lines.append("> 由 powers_poe.jsonl 提炼的高频概念 → 出处人物 → 一句话核心 → 商业场景。")
 lines.append("")
 for name, person, core, scene in CONCEPTS:
     lines.append(f"### {name}（{person}）")

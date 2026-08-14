@@ -1,5 +1,5 @@
 {
-  "version": "3.0.0",
-  "notice": "poeskill 3.0.0：完全独立重写的原创版本。内容全部重写为原创表达，去除上游作者文本与个人数据；知识库替换为四大哲学专题（15 位哲学家/物理学家，带原著出处）；新增 /poe-verify 批判核查；更新链路改指本仓库。",
-  "details_url": "https://github.com/POESKILL_GITHUB_USER/poeskill/releases/tag/v3.0.0"
+  "version": "3.1.0",
+  "notice": "poeskill 3.1.0：能量库命名升级 + 多语言兼容。原子库→能量库、atoms→powers 全局更名；SKILL.md frontmatter 全部带 lang 标记；能量单元带 language 字段；新增 README.en.md 与 i18n/ 翻译规范（zh/en/ja/es/fr/de/ko/pt/ru）。",
+  "details_url": "https://github.com/POESKILL_GITHUB_USER/poeskill/releases/tag/v3.1.0"
 }

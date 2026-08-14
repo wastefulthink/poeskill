@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 name: poe-report
 description: 把多次 poe-save 存档合并成可交付的 Markdown 报告。用户要求汇总诊断、整理报告或生成可分享材料时使用。
 ---

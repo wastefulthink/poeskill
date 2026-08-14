@@ -6,7 +6,7 @@ AUD = {"hume": "🔬", "kant": "🔬", "popper": "🔬", "witt": "🔬", "deutsc
        "adler": "🔥", "schopenhauer": "🔥", "marcus": "🔥💼",
        "nietzsche": "🔥⚠️", "russell_val": "🔬🔥", "camus": "🔥"}
 
-ATOMS_P1 = [
+POWERS_P1 = [
 # ========== 专题一：科学认识论 ==========
 # --- 休谟（1739-40《人性论》）---
 {"id": "hume_01", "knowledge": "归纳问题：从有限经验推不出必然规律。太阳过去每天升起，不等于明天必然升起。商业启示：过去赚钱 ≠ 未来一定复制，把历史业绩当作必然定律是危险的。", "original": "休谟《人性论》(1739-40)", "url": "休谟《人性论》(1739-40)", "date": "1740", "topics": ["决策", "商业模式"], "skills": ["poe-decision", "poe-diagnosis", "poe-standard-answer"], "type": "principle", "confidence": "high", "audience": AUD["hume"]},

@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 name: poe
 description: poeskill 商业工具箱主入口，提供新手教程、任务前路由和任务后导航。用户不知道该用哪个 poe Skill、要求分析商业问题或询问下一步时使用。
 ---
@@ -20,7 +21,7 @@ description: poeskill 商业工具箱主入口，提供新手教程、任务前�
 每次进入本 Skill，在判断模式和路由之前，必须先定位本 `SKILL.md` 所在目录，并执行该目录中的版本检查脚本：
 
 ```bash
-POE_LOCAL_VERSION="3.0.0"; bash "<本 SKILL.md 所在目录>/scripts/check-update.sh" "$POE_LOCAL_VERSION"
+POE_LOCAL_VERSION="3.1.0"; bash "<本 SKILL.md 所在目录>/scripts/check-update.sh" "$POE_LOCAL_VERSION"
 ```
 
 执行规则：

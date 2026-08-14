@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 name: poe-restore
 description: 恢复由 poe-save 保存的最近诊断状态。用户要求接着上次、查看此前结论或继续未完成诊断时使用。
 ---

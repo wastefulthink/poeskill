@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 name: poe-chatroom-market
 description: 由哈耶克、米塞斯与 Claude 从市场秩序学派视角展开多角色讨论。用户要求进入市场秩序聊天室或用市场秩序视角分析问题时使用。
 ---

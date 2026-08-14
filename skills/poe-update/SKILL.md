@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 name: poe-update
 description: 从 GitHub 更新 poeskill，并保留其他 Skill 与用户存档。用户要求更新、升级、检查 poeskill 版本，或在更新提醒后回复 1 时使用。
 ---

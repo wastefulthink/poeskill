@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 name: poe-diagnosis
 description: 用问诊和体检两种模式诊断商业问题与商业模式。用户希望拆解业务、检查商业模式或消解具体商业困境时使用。
 ---

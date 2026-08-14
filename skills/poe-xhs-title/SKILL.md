@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 name: poe-xhs-title
 description: 从 75 个经过验证的小红书标题公式中选择并生成合适标题。用户要求起小红书标题、改标题或选择标题公式时使用。
 ---
