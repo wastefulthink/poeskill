@@ -1,7 +1,7 @@
 ---
 lang: zh-CN
 name: poe-verify
-description: 对 poe 家族任何诊断结论、历史案例、商业建议做批判性反方核查：证据溯源、反例搜索、信源强度评级、可证伪性检查、确认偏差与利益冲突检查，输出带修正的核查报告。用户想复核结论、要第二意见、担心被误导，或说"这个结论靠谱吗""有没有反例""帮我验证一下""这是不是又在给我洗脑"时使用。
+description: 对 poe 家族任何诊断结论、历史案例、商业建议做批判性反方核查：证据溯源、反例搜索、信源强度评级、可证伪性检查、确认偏差与利益冲突检查，输出带修正的核查报告。用户想复核结论、要第二意见、担心被误导，或说"这个结论靠谱吗""有没有反例""帮我验证一下""这是不是又在给我洗脑"时使用。 ｜ Critically counter-verify any poe-family conclusion, historical case or business advice: evidence tracing, counterexample search, source-strength grading, falsifiability and conflict-of-interest checks; outputs a corrected verification report. Use when the user wants a second opinion or asks 'is this conclusion reliable'.
 ---
 
 # poe-verify：批判性反方核查

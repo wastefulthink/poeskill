@@ -1,7 +1,7 @@
 ---
 lang: zh-CN
 name: poe-chatroom
-description: 根据话题推荐或接受用户指定的专家，模拟多角色对话并总结分歧。用户要求定向聊天室、专家讨论或继续当前聊天室时使用。
+description: 根据话题推荐或接受用户指定的专家，模拟多角色对话并总结分歧。用户要求定向聊天室、专家讨论或继续当前聊天室时使用。 ｜ Recommend or accept user-specified experts by topic, simulate multi-role discussion and summarize disagreements. Use when asked for a targeted chat room, expert discussion, or to continue the current one.
 ---
 
 # poe-chatroom：定向聊天室

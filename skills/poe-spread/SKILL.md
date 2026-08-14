@@ -1,7 +1,7 @@
 ---
 lang: zh-CN
 name: poe-spread
-description: 用 5 个经典传播学理论解码内容的共鸣机制、受众情绪和有效立场。用户要求分析内容为什么能火、打中什么情绪或受众想听什么时使用。
+description: 用 5 个经典传播学理论解码内容的共鸣机制、受众情绪和有效立场。用户要求分析内容为什么能火、打中什么情绪或受众想听什么时使用。 ｜ Decode the resonance mechanism, audience emotions and effective stance of content with 5 classic communication theories. Use when asked why content goes viral or what emotion it hits.
 ---
 
 # poe-spread：传播心理解码

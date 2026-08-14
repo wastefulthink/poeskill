@@ -1,7 +1,7 @@
 ---
 lang: zh-CN
 name: poe-content
-description: 诊断如何把已经确定的选题做成好内容。用户要求设计内容、检查文案或改善内容表达时使用。
+description: 诊断如何把已经确定的选题做成好内容。用户要求设计内容、检查文案或改善内容表达时使用。 ｜ Diagnose how to turn a confirmed topic into good content. Use when asked to design content, review copy, or improve expression.
 ---
 
 # poe-content：内容创作诊断

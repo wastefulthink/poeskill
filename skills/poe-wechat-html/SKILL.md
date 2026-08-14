@@ -1,7 +1,7 @@
 ---
 lang: zh-CN
 name: poe-wechat-html
-description: 把 Markdown 转成可粘贴到微信公众号后台的 HTML，并提供 15 种内置风格。用户要求生成公众号 HTML、制作微信版本或排版公众号文章时使用。
+description: 把 Markdown 转成可粘贴到微信公众号后台的 HTML，并提供 15 种内置风格。用户要求生成公众号 HTML、制作微信版本或排版公众号文章时使用。 ｜ Convert Markdown into HTML pasteable into the WeChat Official Account editor, with 15 built-in styles. Use when asked to typeset an official-account article.
 ---
 
 # poe-wechat-html：微信公众号 HTML 生成

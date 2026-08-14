@@ -1,7 +1,7 @@
 ---
 lang: zh-CN
 name: poe-resonate
-description: 用传播心理学框架诊断文稿能否引起共鸣、问题位置和修改方向。用户担心内容没流量、没戳中观众、完播率低或不确定能否发布时使用。
+description: 用传播心理学框架诊断文稿能否引起共鸣、问题位置和修改方向。用户担心内容没流量、没戳中观众、完播率低或不确定能否发布时使用。 ｜ Diagnose whether a draft can resonate, where it fails and how to fix it, using communication psychology. Use when the user worries about low traffic, missing the audience, or low completion rate.
 ---
 
 # poe-resonate：文稿共鸣诊断

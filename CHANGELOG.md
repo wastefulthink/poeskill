@@ -2,6 +2,24 @@
 
 All notable changes to poeskill are documented here. Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [3.5.0] - 2026-08-14 — humanized & multilingual
+
+### Changed
+- **README 重写为中文主版**（`README.md`），加入创始人叙事与对话式语气；
+  去除"产品说明书"腔调，修复安装链接中残留的 `<your-user>` 占位符为
+  `wastefulthink`。
+- 英文版移至 `README.en.md`；旧的 `README.zh-CN.md` 已删除（内容并入主版）。
+- `QUICKSTART.md` 同步改为中文主版，英文版移至 `QUICKSTART.en.md`；
+  旧 `QUICKSTART.zh-CN.md` 已删除。
+- `install.sh` 提示语改为中文优先 + 英文括注（双语输出），安装链接
+  占位符修复。
+
+### Added
+- **9 语言完整覆盖**：README 与 QUICKSTART 各提供简体中文、English、
+  한국어、Русский、Español、日本語、Français、Deutsch、Português 共 9
+  个版本，顶部统一语言切换徽章。
+- 顶部 `🌐` 语言切换行贯穿所有 18 个文档文件。
+
 ## [3.4.0] - 2026-08-14 — beginner-friendly
 
 ### Added

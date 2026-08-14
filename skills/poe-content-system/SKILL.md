@@ -1,7 +1,7 @@
 ---
 lang: zh-CN
 name: poe-content-system
-description: 把本地文稿、推文、选题、案例和课程稿整理成可持续生长、可重组复用的内容工程。用户要求结构化内容资产、整理旧素材或建立主题地图时使用。
+description: 把本地文稿、推文、选题、案例和课程稿整理成可持续生长、可重组复用的内容工程。用户要求结构化内容资产、整理旧素材或建立主题地图时使用。 ｜ Organize local drafts, tweets, topics, cases and course notes into a sustainable, recomposable content engineering system. Use when asked to structure content assets, tidy old material, or build a topic map.
 ---
 
 # poe-content-system：内容结构化系统

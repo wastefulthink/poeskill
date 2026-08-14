@@ -1,7 +1,7 @@
 ---
 lang: zh-CN
 name: poe-diagnosis
-description: 用问诊和体检两种模式诊断商业问题与商业模式。用户希望拆解业务、检查商业模式或消解具体商业困境时使用。
+description: 用问诊和体检两种模式诊断商业问题与商业模式。用户希望拆解业务、检查商业模式或消解具体商业困境时使用。 ｜ Diagnose business problems and business models in consultation and checkup modes. Use when the user wants to dissect a business, examine a business model, or dissolve a specific business predicament.
 ---
 
 # poe-diagnosis：商业模式诊断

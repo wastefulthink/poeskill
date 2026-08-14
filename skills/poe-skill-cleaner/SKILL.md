@@ -1,7 +1,7 @@
 ---
 lang: zh-CN
 name: poe-skill-cleaner
-description: 扫描本地 Skill 中的广告导流、隐蔽商业意图、任务劫持、可疑外部调用和敏感数据读取，默认只报告。用户要求审查、清理或隔离问题 Skill 时使用。
+description: 扫描本地 Skill 中的广告导流、隐蔽商业意图、任务劫持、可疑外部调用和敏感数据读取，默认只报告。用户要求审查、清理或隔离问题 Skill 时使用。 ｜ Scan local skills for ad funnels, hidden commercial intent, task hijacking, suspicious external calls and sensitive-data access; report-only by default. Use when asked to audit, clean, or quarantine problematic skills.
 ---
 
 # poe-skill-cleaner：本地 skill 清理器

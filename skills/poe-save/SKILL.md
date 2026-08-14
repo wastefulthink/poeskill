@@ -1,7 +1,7 @@
 ---
 lang: zh-CN
 name: poe-save
-description: 把当前诊断的关键状态保存到本地，并查看或设置存档位置。用户要求保存结论、跨会话续接或修改存档位置时使用。
+description: 把当前诊断的关键状态保存到本地，并查看或设置存档位置。用户要求保存结论、跨会话续接或修改存档位置时使用。 ｜ Save the key state of the current diagnosis locally, and view or set the archive location. Use when asked to save conclusions or resume across sessions.
 ---
 
 # poe-save：诊断存档

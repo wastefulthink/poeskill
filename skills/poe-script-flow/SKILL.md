@@ -1,7 +1,7 @@
 ---
 lang: zh-CN
 name: poe-script-flow
-description: 检查短视频逐字稿的段落衔接、信息密度和口播流畅度，定位观众可能划走的位置。用户要求检查逻辑延续、文稿顺畅度或流失风险时使用。
+description: 检查短视频逐字稿的段落衔接、信息密度和口播流畅度，定位观众可能划走的位置。用户要求检查逻辑延续、文稿顺畅度或流失风险时使用。 ｜ Check short-video scripts for paragraph continuity, information density and spoken fluency, locating where viewers may swipe away. Use when asked to check script smoothness or drop-off risk.
 ---
 
 # poe-script-flow — 逻辑延续检查

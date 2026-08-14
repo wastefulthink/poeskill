@@ -1,7 +1,7 @@
 ---
 lang: zh-CN
 name: poe-hook
-description: 诊断短视频开头的问题并生成优化方案。用户要求修改开头、提高开场吸引力或降低开头流失时使用。
+description: 诊断短视频开头的问题并生成优化方案。用户要求修改开头、提高开场吸引力或降低开头流失时使用。 ｜ Diagnose short-video opening problems and generate optimization plans. Use when asked to fix an opening, boost first-second appeal, or reduce early drop-off.
 ---
 
 # poe-hook：短视频开头优化

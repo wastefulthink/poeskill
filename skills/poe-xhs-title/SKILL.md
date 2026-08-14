@@ -1,7 +1,7 @@
 ---
 lang: zh-CN
 name: poe-xhs-title
-description: 从 75 个经过验证的小红书标题公式中选择并生成合适标题。用户要求起小红书标题、改标题或选择标题公式时使用。
+description: 从 75 个经过验证的小红书标题公式中选择并生成合适标题。用户要求起小红书标题、改标题或选择标题公式时使用。 ｜ Pick from 75 proven Xiaohongshu (RED) title formulas and generate fitting titles. Use when asked to draft or revise Xiaohongshu titles.
 ---
 
 # poe-xhs-title：小红书标题公式工具

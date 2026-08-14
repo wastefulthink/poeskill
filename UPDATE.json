@@ -1,5 +1,16 @@
 {
-  "version": "3.4.0",
-  "notice": "poeskill 3.4.0：新增 QUICKSTART 双语新手文档与 README First 3 minutes 引导，小白只需记住 /poe 一个命令；新增 benchmark/ 可复现对比（同一决策题裸跑 6/25 vs poeskill 25/25）。",
-  "details_url": "https://github.com/wastefulthink/poeskill/releases/tag/v3.4.0"
+  "version": "3.5.0",
+  "notice": "poeskill 3.5.0：全面人情味改版——README 重写为中文主版（创始人叙事、对话语气）；README 与 QUICKSTART 新增 9 语言完整版本（中/英/韩/俄/西/日/法/德/葡）；修复安装链接占位符。｜ Full humanized rewrite: Chinese-primary README, 9-language docs (zh/en/ko/ru/es/ja/fr/de/pt), installer link fix.",
+  "notice_i18n": {
+    "zh-CN": "poeskill 3.5.0：全面人情味改版，README 重写为中文主版，文档新增 9 语言完整版本。",
+    "en": "poeskill 3.5.0: humanized rewrite. Chinese-primary README, full docs in 9 languages.",
+    "ko": "poeskill 3.5.0: 전면 개편. 중국어 기본 README, 9개 언어 문서.",
+    "ru": "poeskill 3.5.0: переработка. README на китайском, документация на 9 языках.",
+    "es": "poeskill 3.5.0: reescritura. README en chino, documentación en 9 idiomas.",
+    "ja": "poeskill 3.5.0：全面リニューアル。中国語メインのREADME、9言語のドキュメント。",
+    "fr": "poeskill 3.5.0 : réécriture. README en chinois, documentation en 9 langues.",
+    "de": "poeskill 3.5.0: Überarbeitung. Chinesischer README, Dokumentation in 9 Sprachen.",
+    "pt": "poeskill 3.5.0: reescrita. README em chinês, documentação em 9 idiomas."
+  },
+  "details_url": "https://github.com/wastefulthink/poeskill/releases/tag/v3.5.0"
 }

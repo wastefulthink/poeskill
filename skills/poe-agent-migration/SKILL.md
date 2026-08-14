@@ -1,7 +1,7 @@
 ---
 lang: zh-CN
 name: poe-agent-migration
-description: 审计项目规则文件、识别真源、统一命名并生成桥接，把项目迁移成多端一致的 Agent 工作台。用户要求迁移 Claude Code、Codex、Grok、通用 Agents 或整理 AGENTS.md 时使用。
+description: 审计项目规则文件、识别真源、统一命名并生成桥接，把项目迁移成多端一致的 Agent 工作台。用户要求迁移 Claude Code、Codex、Grok、通用 Agents 或整理 AGENTS.md 时使用。 ｜ Audit project rule files, identify the source of truth, unify naming and generate bridges, migrating a project into a multi-agent-consistent workspace. Use when asked to migrate Claude Code, Codex, Grok, generic Agents, or organize AGENTS.md.
 ---
 
 # poe-agent-migration：Agent 工作台迁移

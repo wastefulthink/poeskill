@@ -3,7 +3,7 @@
 # poeskill — one-line installer for Claude Code / Codex / Cline / Kiro /
 # Qwen Code / WorkBuddy and any other Agent that reads skills from a folder.
 #
-#   curl -fsSL https://raw.githubusercontent.com/<USER>/poeskill/main/install.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/wastefulthink/poeskill/main/install.sh | bash
 #   # or from a local clone:
 #   bash install.sh [--target DIR] [--all] [--dry-run]
 #
@@ -71,35 +71,35 @@ warn() { printf '\033[1;33m[poeskill]\033[0m %s\n' "$*" >&2; }
 install_into() {
   local dest="$1"
   if [[ "$INSTALL_ALL" -eq 0 && "$TARGET_DIR" == "" ]]; then
-    read -r -p "Install poeskill v${VERSION} into ${dest}? [y/N] " ans
-    [[ "${ans,,}" == "y" || "${ans,,}" == "yes" ]] || { warn "skipped ${dest}"; return 0; }
+    read -r -p "安装到 ${dest}? ｜ Install into ${dest}? [y/N] " ans
+    [[ "${ans,,}" == "y" || "${ans,,}" == "yes" ]] || { warn "跳过 ${dest} ｜ skipped"; return 0; }
   fi
   if [[ "$DRY_RUN" -eq 1 ]]; then
-    say "dry-run: would install into ${dest}"
+    say "模拟运行 ｜ dry-run: 将安装到 ${dest}"
     return 0
   fi
   mkdir -p "$dest"
   cp -r "$POESKILL_HOME/skills/." "$dest/"
-  say "skills installed → ${dest} (32 skills)"
+  say "技能已安装 → ${dest}（32 个技能 ｜ 32 skills）"
   if [[ -d "$POESKILL_HOME/知识库" ]]; then
     mkdir -p "$dest/../poeskill-知识库" 2>/dev/null || true
     local kb_dest="$dest/../poeskill-知识库"
-    cp -r "$POESKILL_HOME/知识库/." "$kb_dest/" 2>/dev/null && say "knowledge base installed → ${kb_dest} (305 power units)"
+    cp -r "$POESKILL_HOME/知识库/." "$kb_dest/" 2>/dev/null && say "知识库已安装 → ${kb_dest}（305 条 ｜ 305 units）"
   fi
 }
 
 main() {
-  say "poeskill v${VERSION} installer"
+  say "poeskill 安装器 v${VERSION} ｜ installer"
   local targets
   targets=$(detect_targets)
   if [[ -z "$targets" ]]; then
-    warn "no Agent skill directory detected; use --target <dir>"
+    warn "未检测到 AI 工具目录，请用 --target <目录> 指定 ｜ no Agent detected, use --target <dir>"
     exit 1
   fi
   for t in $targets; do
     install_into "$t"
   done
-  say "done. Run /poe in your Agent to get started."
+  say "完成。在 AI 工具里输入 /poe 即可开始 ｜ done. Run /poe in your Agent."
 }
 
 main "$@"

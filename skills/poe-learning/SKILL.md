@@ -1,7 +1,7 @@
 ---
 lang: zh-CN
 name: poe-learning
-description: 把课题拆成连续学习文章，并根据用户反馈调整后续深度、角度和节奏。用户要求系统学习一个主题、继续下一篇或按反馈调整课程时使用。
+description: 把课题拆成连续学习文章，并根据用户反馈调整后续深度、角度和节奏。用户要求系统学习一个主题、继续下一篇或按反馈调整课程时使用。 ｜ Break a topic into a sequence of learning articles and adjust depth, angle and pace based on feedback. Use when asked to systematically learn a topic or continue the series.
 ---
 
 # poe-learning：交互式学习

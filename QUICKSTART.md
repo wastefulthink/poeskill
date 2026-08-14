@@ -1,109 +1,98 @@
-# Quickstart (3 minutes, no jargon)
+# 3 分钟上手（小白版）
 
-> No technical background needed. Follow along — 3 minutes to your first
-> "push back" from your AI.
+> 不需要懂任何技术概念。跟着做，3 分钟体验第一次"被 AI 抬杠"。
 
-## The one thing you need to remember
-
-**After install, you only need to remember one command: `/poe`**
-
-It figures out what you're trying to do and routes you to the right tool.
-**You don't need to learn any of the 32 skill names.**
+🌐 [简体中文](QUICKSTART.md) · [English](QUICKSTART.en.md) · [한국어](QUICKSTART.ko.md) · [Русский](QUICKSTART.ru.md) · [Español](QUICKSTART.es.md) · [日本語](QUICKSTART.ja.md) · [Français](QUICKSTART.fr.md) · [Deutsch](QUICKSTART.de.md) · [Português](QUICKSTART.pt.md)
 
 ---
 
-## Step 1 — Install (≈30 seconds)
+## 你只需要记住一件事
 
-In a terminal (Windows: use Git Bash or WSL):
+**装完之后，你只需要记住一个命令：`/poe`**
+
+它会自动判断你想干什么，然后把你带到正确的工具。**32 个技能的名字，一个都不用记。**
+
+---
+
+## 第 1 步：安装（约 30 秒）
+
+在终端（Windows 用户用 Git Bash 或 WSL）里运行：
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/<your-user>/poeskill/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/wastefulthink/poeskill/main/install.sh | bash
 ```
 
-Or, if you already downloaded the project folder, run this inside it:
+或者你已经下载了项目文件夹，就直接在项目目录里运行：
 
 ```bash
 bash install.sh
 ```
 
-The installer auto-detects your AI tools (Claude Code, Codex, Cline,
-WorkBuddy, …), asks for confirmation, and installs the skills. You'll see:
+安装器会自动找到你电脑上的 AI 工具（Claude Code、Codex、Cline、WorkBuddy 等），确认后把技能装进去。装完你会看到：
 
 ```
-[poeskill] done. Run /poe in your Agent to get started.
+[poeskill] 完成。在你的 AI 工具里输入 /poe 即可开始。
 ```
 
-> **No bash?** See [Windows tips](#windows-tips).
+> **没有 bash？** 见文末 [Windows 小贴士](#windows-小贴士)。
 
-## Step 2 — Say your first sentence (30 seconds)
+## 第 2 步：说出你的第一句话（30 秒）
 
-Open your AI tool and just type — plain language, no format needed:
+打开你的 AI 工具，直接输入，大白话就行，不用任何格式：
 
 ```
-/poe I have an idea: a coffee shop AI queue-ordering mini-app. Should I do it?
+/poe 我有一个想法：想做个咖啡店的 AI 排队小程序，你觉得该不该做？
 ```
 
-That's it. It takes it from there.
+就这一句。剩下的交给它。
 
-## Step 3 — Experience the pushback (2 minutes)
+## 第 3 步：体验反附和（2 分钟）
 
-A normal AI says "great idea, here's how to build it". An AI with poeskill
-argues with you first:
+普通 AI 会说"这个想法很好，建议你……"。装了 poeskill 的 AI 会先跟你抬杠：
 
-- It challenges your premise: "**Is the queue really their biggest pain
-  point? Have you verified that?**"
-- It asks for evidence: "Will the owner actually pay for this? Do you have
-  proof?"
-- It gives a falsifiable conclusion: "**Don't do it — unless** X happens"
-  instead of "it depends on your execution".
+- 它先质疑你的前提："**排队真的是这家店最大的痛点吗？** 你验证过吗？"
+- 它追问数据："老板愿意为这个功能掏多少钱？你有证据吗？"
+- 最后给一个可以验证的结论："**不建议做，除非**出现 XX 情况"——而不是"取决于你的执行力"这种废话。
 
-**That's the whole point: it argues first so you make better decisions.**
+**它先跟你抬杠，是为了帮你做对决定。** 这就是全部意义。
 
 ---
 
-## How do I know the install worked?
+## 装完怎么确认成功了？
 
-| Method | How |
+| 方法 | 说明 |
 |---|---|
-| Just try it | Type `/poe` — if you get onboarding/routing, it's installed |
-| Check the folder | 32 `poe-*` folders exist in your skills dir (e.g. `~/.claude/skills/`) |
-| Check install output | `skills installed → <dir> (32 skills)` means success |
+| 直接试 | 输入 `/poe`，如果弹出了引导或路由菜单，说明装好了 |
+| 看目录 | 技能目录下应有 32 个 `poe-*` 文件夹（比如 `~/.claude/skills/`） |
+| 看安装输出 | 安装时打印了 `skills installed → 目录 (32 skills)` 就是成功 |
 
-## Common situations, plain language
+## 常见场景速查（大白话版）
 
-You don't need this table — `/poe` routes automatically. It's just to give
-you a mental map:
+其实你只需要说大白话，`/poe` 会自动路由。这张表只是让你心里有数：
 
-| What you want | Just say | Under the hood |
+| 你想干嘛 | 就这样说 | 实际用到 |
 |---|---|---|
-| Decide if an idea is worth doing | "help me analyze whether I should do this" | `/poe-diagnosis` |
-| Fact-check a claim or article | "help me verify this claim" | `/poe-verify` |
-| Can't articulate what you want | "help me clarify this goal" | `/poe-goal` |
-| Know what to do but can't start | "why do I keep procrastinating" | `/poe-action` |
-| A buzzword means nothing concrete | "dismantle this word for me" | `/poe-deconstruct` |
-| Can't write a good opening | "help me improve this hook" | `/poe-hook` |
-| A decision you might regret later | "help me track this decision long-term" | `/poe-decision` |
+| 有个想法不知道值不值得做 | "帮我分析这个想法该不该做" | `/poe-diagnosis` |
+| 看到一个说法，不知道真假 | "帮我校验一下这个说法" | `/poe-verify` |
+| 说不清自己到底想要什么 | "帮我把这个愿望理清楚" | `/poe-goal` |
+| 知道该做，但就是不动 | "我为什么总是拖延" | `/poe-action` |
+| 一个词被吹得天花乱坠 | "帮我拆解一下这个词" | `/poe-deconstruct` |
+| 写文章/视频，不知道怎么开头 | "帮我优化这个开头" | `/poe-hook` |
+| 想做个决定，怕以后后悔 | "帮我分析这个决定，长期跟踪" | `/poe-decision` |
 
-## Windows tips
+## Windows 小贴士
 
-1. **Use Git Bash or WSL** to run the installer — it's a bash script, and
-   both ship with bash.
-2. **Don't want bash at all?** Fine: have someone (or your AI tool) run the
-   install for you. After that, using it is just typing `/poe` — no terminal
-   needed.
-3. **Where did it install?** The installer prints `skills installed → <path>`.
-   Remember that path.
-4. **Installer stuck or erroring?** Paste the error to `/poe` ("I hit an
-   install problem"), or open an issue.
+1. **推荐用 Git Bash 或 WSL** 运行安装命令——安装器是 bash 脚本，这两个环境自带 bash。
+2. **实在不想装 bash？** 也没关系：安装这一步可以让人代劳（或者让 AI 工具自己检测），装完之后你只管在 AI 工具里输入 `/poe`，使用完全不需要命令行。
+3. **装完不知道装到哪了？** 安装时脚本会打印 `skills installed → 路径`，记下这个路径就行。
+4. **安装卡住 / 报错？** 直接把报错内容发给 `/poe`，说"我安装遇到问题了"，或者去仓库提 issue。
 
 ---
 
-## Next steps
+## 下一步
 
-- What each tool actually does → [README](README.md) → "What it does"
-- Proof it works → [`benchmark/`](benchmark/) (same question: bare 6/25 vs
-  with poeskill 25/25)
-- Any problem → tell `/poe` "I have a problem", or open an
-  [issue](https://github.com/<your-user>/poeskill/issues/new)
+- 想深入看每个工具能干什么 → 打开 [README](README.md)
+- 想验证它是不是真有价值 → 看 [`benchmark/`](benchmark/)（同一道题：裸跑 6/25 vs 装了之后 25/25）
+- 遇到任何问题 → 对 `/poe` 说"我遇到问题了"，或提 [issue](https://github.com/wastefulthink/poeskill/issues/new)
 
-> v3.4.0 ｜ MIT ｜ Runs locally: no telemetry, no signup, no account
+> 版本：v3.5.0 ｜ 协议：MIT ｜ 本地运行，无遥测、无注册、无账号

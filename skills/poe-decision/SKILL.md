@@ -1,7 +1,7 @@
 ---
 lang: zh-CN
 name: poe-decision
-description: 把需要长期跟踪的业务、关系、健康、职业、学习或投资问题建成本地决策知识工程。用户要求决策立案、结果回填、状态画像或长期复盘时使用。
+description: 把需要长期跟踪的业务、关系、健康、职业、学习或投资问题建成本地决策知识工程。用户要求决策立案、结果回填、状态画像或长期复盘时使用。 ｜ Turn business, relationship, health, career, learning or investment questions needing long-term tracking into a local decision knowledge base. Use when asked to open a decision case, backfill outcomes, or do long-term review.
 ---
 
 # poe-decision：个人决策系统

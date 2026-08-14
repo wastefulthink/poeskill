@@ -1,7 +1,7 @@
 ---
 lang: zh-CN
 name: poe-good-question
-description: 把模糊问题改写成 Agent 可推理、可批评、可验证的问题说明书，并判断自动化解决程度。用户要求把问题说清、生成好问题或评估 Agent 可解性时使用。
+description: 把模糊问题改写成 Agent 可推理、可批评、可验证的问题说明书，并判断自动化解决程度。用户要求把问题说清、生成好问题或评估 Agent 可解性时使用。 ｜ Rewrite vague questions into reasoning-ready, criticizable, verifiable problem specs, and assess how automatable they are. Use when asked to sharpen a question or evaluate agent-solvability.
 ---
 
 # poe-good-question：好问题生成器

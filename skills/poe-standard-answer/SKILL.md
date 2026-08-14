@@ -1,7 +1,7 @@
 ---
 lang: zh-CN
 name: poe-standard-answer
-description: 从商业史、管理史、技术史、职业史和制度史中寻找与现实困境同构的成功、失败和反例，提炼带条件的重复机制。用户要求历史类比、经典解法或标准答案时使用。
+description: 从商业史、管理史、技术史、职业史和制度史中寻找与现实困境同构的成功、失败和反例，提炼带条件的重复机制。用户要求历史类比、经典解法或标准答案时使用。 ｜ Find successes, failures and counterexamples isomorphic to the current dilemma across business, management, technology, career and institutional history, and extract conditional repeatable mechanisms. Use when asked for historical analogies or classic solutions.
 ---
 
 # poe-standard-answer：历史同构与标准答案研究

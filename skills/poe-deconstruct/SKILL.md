@@ -1,7 +1,7 @@
 ---
 lang: zh-CN
 name: poe-deconstruct
-description: 用维特根斯坦与奥地利学派方法拆解模糊的商业概念。用户要求解释一个词、澄清概念边界或识别概念混用时使用。
+description: 用维特根斯坦与奥地利学派方法拆解模糊的商业概念。用户要求解释一个词、澄清概念边界或识别概念混用时使用。 ｜ Dismantle vague business concepts with Wittgensteinian and Austrian-school methods. Use when asked to explain a word, clarify concept boundaries, or identify concept conflation.
 ---
 
 # poe-deconstruct：概念拆解

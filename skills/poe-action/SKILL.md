@@ -1,7 +1,7 @@
 ---
 lang: zh-CN
 name: poe-action
-description: 用阿德勒心理学框架诊断执行阻滞。用户知道该做什么却迟迟不做、反复拖延或行动中断时使用。
+description: 用阿德勒心理学框架诊断执行阻滞。用户知道该做什么却迟迟不做、反复拖延或行动中断时使用。 ｜ Diagnose execution blocks with the Adlerian psychology framework. Use when the user knows what to do but keeps procrastinating or stalling.
 ---
 
 # poe-action：执行力诊断

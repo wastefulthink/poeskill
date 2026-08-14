@@ -1,7 +1,7 @@
 ---
 lang: zh-CN
 name: poe-knowledge
-description: 把本地文件夹建成 Agent 可稳定查找、收录和维护的知识库，并支持导航、版本判断、健康检查及 SOT 分层治理。用户要求搭建、查询、更新、整理或瘦身知识库时使用。
+description: 把本地文件夹建成 Agent 可稳定查找、收录和维护的知识库，并支持导航、版本判断、健康检查及 SOT 分层治理。用户要求搭建、查询、更新、整理或瘦身知识库时使用。 ｜ Turn a local folder into a knowledge base an agent can reliably find, ingest and maintain, with navigation, versioning, health checks and SOT layered governance. Use when asked to build, query, update or tidy a knowledge base.
 ---
 
 # poe-knowledge：文件夹知识库

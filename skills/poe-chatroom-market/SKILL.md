@@ -1,7 +1,7 @@
 ---
 lang: zh-CN
 name: poe-chatroom-market
-description: 由哈耶克、米塞斯与 Claude 从市场秩序学派视角展开多角色讨论。用户要求进入市场秩序聊天室或用市场秩序视角分析问题时使用。
+description: 由哈耶克、米塞斯与 Claude 从市场秩序学派视角展开多角色讨论。用户要求进入市场秩序聊天室或用市场秩序视角分析问题时使用。 ｜ Multi-role discussion from the market-order school perspective with Hayek, Mises and Claude. Use when asked to enter the market-order chat room or analyze problems through that lens.
 ---
 
 # poe-chatroom-market：市场秩序聊天室
