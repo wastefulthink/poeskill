@@ -174,8 +174,16 @@ poeskill 是思维工具，不是答案机器：
 
 MIT License。详见 [LICENSE](LICENSE)。
 
+## 请我喝杯咖啡
+
+如果 poeskill 帮你想清楚了某个决定，可以请我喝杯咖啡：
+
+[![Buy Me a Coffee](https://img.shields.io/badge/☕-请我喝咖啡-FFDD00?logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/xueyegog)
+
+完全自愿——不赞助也照样用、照样更新。
+
 ## 致谢与声明
 
 - 本仓库为完全独立的原创实现，全部 Skill、知识单元、脚本与文档均为本项目独立撰写
-- 无付费社群、无课程导流、无任何形式的商业变现入口
+- 项目本身免费开源，唯一支持方式是自愿赞赏（见上方），无付费社群、无课程导流
 - 知识库内容基于公开的哲学与经济学著作整理，引用均标注原著出处

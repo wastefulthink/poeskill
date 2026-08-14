@@ -109,4 +109,4 @@ you a mental map:
 - Any problem → tell `/poe` "I have a problem", or open an
   [issue](https://github.com/wastefulthink/poeskill/issues/new)
 
-> v3.5.0 ｜ MIT ｜ Runs locally: no telemetry, no signup, no account
+> v3.5.1 ｜ MIT ｜ Runs locally: no telemetry, no signup, no account

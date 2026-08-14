@@ -174,8 +174,16 @@ Veja [CONTRIBUTING.md](CONTRIBUTING.md) (incluindo o fluxo de trabalho de i18n),
 
 MIT. Veja [LICENSE](LICENSE).
 
+## Me pague um café
+
+Se o poeskill te ajudou a clarear alguma decisão, me pague um café:
+
+[![Buy Me a Coffee](https://img.shields.io/badge/☕-Me_pague_um_café-FFDD00?logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/xueyegog)
+
+Totalmente voluntário — sem patrocínio você continua usando e recebendo atualizações normalmente.
+
 ## Agradecimentos
 
 - Este repositório é uma implementação original, escrita do zero. Todas as skills, unidades de conhecimento, scripts e documentações foram escritos de forma independente para este projeto.
-- Sem comunidade paga, sem funil de curso, sem monetização de qualquer tipo.
+- O projeto é gratuito e de código aberto; a única forma de apoiá-lo é por doações voluntárias (ver acima). Sem comunidade paga nem funil de curso.
 - O conteúdo da base de conhecimento é organizado a partir de obras filosóficas e econômicas disponíveis publicamente; cada unidade cita sua fonte original.

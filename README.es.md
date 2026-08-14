@@ -174,8 +174,16 @@ Consulta [CONTRIBUTING.md](CONTRIBUTING.md) (incluye el flujo de trabajo i18n), 
 
 MIT. Ver [LICENSE](LICENSE).
 
+## Invítame a un café
+
+Si poeskill te ayudó a clarificar alguna decisión, invítame a un café:
+
+[![Buy Me a Coffee](https://img.shields.io/badge/☕-Invítame_un_café-FFDD00?logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/xueyegog)
+
+Totalmente voluntario — sin patrocinio, igual puedes usarlo y recibir actualizaciones.
+
 ## Agradecimientos
 
 - Este repositorio es una implementación original, hecha desde cero. Todas las skills, unidades de conocimiento, scripts y documentación fueron escritos de forma independiente para este proyecto.
-- Sin comunidad de pago, sin embudo de cursos, sin monetización de ningún tipo.
+- El proyecto es gratuito y de código abierto; la única forma de apoyarlo es mediante donaciones voluntarias (ver arriba). Sin comunidad de pago ni embudo de cursos.
 - El contenido de la base de conocimiento está organizado a partir de obras filosóficas y económicas de dominio público; cada unidad cita su fuente original.

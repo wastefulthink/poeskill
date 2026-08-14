@@ -109,4 +109,4 @@ pour vous donner une carte mentale :
 - Un problème quelconque → dites à `/poe` « j'ai un problème », ou ouvrez un
   [ticket](https://github.com/wastefulthink/poeskill/issues/new)
 
-> v3.5.0 ｜ MIT ｜ Fonctionne en local : pas de télémétrie, pas d'inscription, pas de compte
+> v3.5.1 ｜ MIT ｜ Fonctionne en local : pas de télémétrie, pas d'inscription, pas de compte

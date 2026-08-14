@@ -95,4 +95,4 @@ bash install.sh
 - 想验证它是不是真有价值 → 看 [`benchmark/`](benchmark/)（同一道题：裸跑 6/25 vs 装了之后 25/25）
 - 遇到任何问题 → 对 `/poe` 说"我遇到问题了"，或提 [issue](https://github.com/wastefulthink/poeskill/issues/new)
 
-> 版本：v3.5.0 ｜ 协议：MIT ｜ 本地运行，无遥测、无注册、无账号
+> 版本：v3.5.1 ｜ 协议：MIT ｜ 本地运行，无遥测、无注册、无账号

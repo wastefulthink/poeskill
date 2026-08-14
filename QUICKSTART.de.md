@@ -103,4 +103,4 @@ nur als Überblickskarte:
 - Beweis, dass es funktioniert → [`benchmark/`](benchmark/) (gleiche Frage: nackt 6/25 vs. mit poeskill 25/25)
 - Problem → sag `/poe` „I have a problem", oder öffne ein [Issue](https://github.com/wastefulthink/poeskill/issues/new)
 
-> v3.5.0 ｜ MIT ｜ Läuft lokal: keine Telemetrie, keine Anmeldung, kein Account
+> v3.5.1 ｜ MIT ｜ Läuft lokal: keine Telemetrie, keine Anmeldung, kein Account

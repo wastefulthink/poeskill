@@ -174,8 +174,16 @@ Voir [CONTRIBUTING.md](CONTRIBUTING.md) (incl. le flux i18n), [ROADMAP.md](ROADM
 
 MIT. Voir [LICENSE](LICENSE).
 
+## Offrez-moi un café
+
+Si poeskill vous a aidé à clarifier une décision, offrez-moi un café :
+
+[![Buy Me a Coffee](https://img.shields.io/badge/☕-Offrir_un_café-FFDD00?logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/xueyegog)
+
+Entièrement volontaire — sans mécénat, vous profitez quand même de l'outil et des mises à jour.
+
 ## Remerciements
 
 - Ce dépôt est une implémentation originale, écrite de zéro. Tous les skills, unités de connaissance, scripts et documentations ont été rédigés indépendamment pour ce projet.
-- Aucune communauté payante, aucun tunnel de vente de cours, aucune monétisation d'aucune sorte.
+- Le projet est gratuit et open source ; le seul moyen de le soutenir est le don volontaire (voir ci-dessus). Aucune communauté payante ni tunnel de vente de cours.
 - Le contenu de la base de connaissances est organisé à partir d'œuvres philosophiques et économiques publiquement disponibles ; chaque unité cite sa source originale.

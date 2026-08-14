@@ -2,6 +2,17 @@
 
 All notable changes to poeskill are documented here. Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [3.5.1] - 2026-08-14 — sponsor link
+
+### Added
+- **赞赏入口**：新增 `.github/FUNDING.yml`（GitHub 仓库页 "Sponsor" 按钮指向
+  [buymeacoffee.com/xueyegog](https://buymeacoffee.com/xueyegog)）；
+  全部 9 语言 README 增加「请我喝杯咖啡」区块（本地化的赞赏文案与徽章）。
+
+### Changed
+- 致谢声明措辞更新：由"无任何形式的商业变现入口"改为
+  "项目免费开源，唯一支持方式是自愿赞赏"，与新赞赏入口保持一致。
+
 ## [3.5.0] - 2026-08-14 — humanized & multilingual
 
 ### Changed

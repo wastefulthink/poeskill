@@ -1,16 +1,16 @@
 {
-  "version": "3.5.0",
-  "notice": "poeskill 3.5.0：全面人情味改版——README 重写为中文主版（创始人叙事、对话语气）；README 与 QUICKSTART 新增 9 语言完整版本（中/英/韩/俄/西/日/法/德/葡）；修复安装链接占位符。｜ Full humanized rewrite: Chinese-primary README, 9-language docs (zh/en/ko/ru/es/ja/fr/de/pt), installer link fix.",
+  "version": "3.5.1",
+  "notice": "poeskill 3.5.1：新增赞赏入口——GitHub 仓库页 Sponsor 按钮与 9 语言 README 中的「请我喝杯咖啡」区块，指向 buymeacoffee.com/xueyegog。项目依然免费开源，赞赏完全自愿。｜ Sponsor link added: GitHub Sponsor button + Buy Me a Coffee section in all 9 README languages. Still free and open source — donations are entirely voluntary.",
   "notice_i18n": {
-    "zh-CN": "poeskill 3.5.0：全面人情味改版，README 重写为中文主版，文档新增 9 语言完整版本。",
-    "en": "poeskill 3.5.0: humanized rewrite. Chinese-primary README, full docs in 9 languages.",
-    "ko": "poeskill 3.5.0: 전면 개편. 중국어 기본 README, 9개 언어 문서.",
-    "ru": "poeskill 3.5.0: переработка. README на китайском, документация на 9 языках.",
-    "es": "poeskill 3.5.0: reescritura. README en chino, documentación en 9 idiomas.",
-    "ja": "poeskill 3.5.0：全面リニューアル。中国語メインのREADME、9言語のドキュメント。",
-    "fr": "poeskill 3.5.0 : réécriture. README en chinois, documentation en 9 langues.",
-    "de": "poeskill 3.5.0: Überarbeitung. Chinesischer README, Dokumentation in 9 Sprachen.",
-    "pt": "poeskill 3.5.0: reescrita. README em chinês, documentação em 9 idiomas."
+    "zh-CN": "poeskill 3.5.1：新增赞赏入口（GitHub Sponsor 按钮 + 9 语言 README 咖啡区块），赞赏完全自愿。",
+    "en": "poeskill 3.5.1: sponsor link added (GitHub Sponsor button + coffee section in all 9 READMEs), entirely voluntary.",
+    "ko": "poeskill 3.5.1: 후원 링크 추가(GitHub Sponsor 버튼 + 9개 언어 README 커피 섹션), 전적으로 자발적입니다.",
+    "ru": "poeskill 3.5.1: добавлена ссылка для поддержки (кнопка Sponsor + раздел с кофе во всех 9 README), полностью добровольно.",
+    "es": "poeskill 3.5.1: enlace de patrocinio añadido (botón Sponsor + sección de café en los 9 README), totalmente voluntario.",
+    "ja": "poeskill 3.5.1：スポンサーリンクを追加（GitHubのSponsorボタン＋9言語のREADMEにコーヒーセクション）、あくまで任意です。",
+    "fr": "poeskill 3.5.1 : lien de don ajouté (bouton Sponsor + section café dans les 9 README), entièrement volontaire.",
+    "de": "poeskill 3.5.1: Sponsor-Link hinzugefügt (Sponsor-Button + Kaffee-Bereich in allen 9 READMEs), vollkommen freiwillig.",
+    "pt": "poeskill 3.5.1: link de apoio adicionado (botão Sponsor + seção de café nos 9 READMEs), totalmente voluntário."
   },
-  "details_url": "https://github.com/wastefulthink/poeskill/releases/tag/v3.5.0"
+  "details_url": "https://github.com/wastefulthink/poeskill/releases/tag/v3.5.1"
 }

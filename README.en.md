@@ -174,8 +174,16 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) (incl. i18n workflow), [ROADMAP.md](ROADM
 
 MIT. See [LICENSE](LICENSE).
 
+## Buy Me a Coffee
+
+If poeskill helped you think through a decision, consider buying me a coffee:
+
+[![Buy Me a Coffee](https://img.shields.io/badge/☕-Buy_Me_a_Coffee-FFDD00?logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/xueyegog)
+
+Entirely voluntary — no sponsorship required to use or get updates.
+
 ## Acknowledgements
 
 - This repository is an original, from-scratch implementation. All skills, knowledge units, scripts, and documentation were written independently for this project.
-- No paid community, no course funnel, no monetization of any kind.
+- The project is free and open source; the only way to support it is voluntary donations (see above). No paid community, no course funnel.
 - Knowledge base content is organized from publicly available philosophical and economic works; every unit cites its original source.

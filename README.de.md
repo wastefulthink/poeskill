@@ -174,8 +174,16 @@ Siehe [CONTRIBUTING.md](CONTRIBUTING.md) (inkl. i18n-Workflow), [ROADMAP.md](ROA
 
 MIT. Siehe [LICENSE](LICENSE).
 
+## Mir einen Kaffee spendieren
+
+Wenn poeskill dir bei einer Entscheidung geholfen hat, spendier mir gerne einen Kaffee:
+
+[![Buy Me a Coffee](https://img.shields.io/badge/☕-Kaffee_spendieren-FFDD00?logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/xueyegog)
+
+Vollkommen freiwillig — ohne Sponsoring nutzt du es weiter und bekommst weiterhin Updates.
+
 ## Danksagung
 
 - Dieses Repository ist eine originale, von Grund auf neue Implementierung. Alle Skills, Wissenseinheiten, Skripte und die Dokumentation wurden unabhängig für dieses Projekt geschrieben.
-- Keine bezahlte Community, kein Kurs-Funnel, keinerlei Monetarisierung.
+- Das Projekt ist frei und Open Source; die einzige Unterstützung ist freiwillige Spenden (siehe oben). Keine bezahlte Community, kein Kurs-Funnel.
 - Die Inhalte der Wissensbasis sind aus öffentlich zugänglichen philosophischen und ökonomischen Werken zusammengestellt; jede Einheit zitiert ihre Originalquelle.
